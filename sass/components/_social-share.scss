@@ -1,0 +1,24 @@
+.share {
+  background: $gray-700 url(../images/share-icons.svg) no-repeat;
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  
+  
+  &--facebook {
+    background-position: 0 0; 
+  }
+  &--twitter {
+    background-position: -8rem 0; 
+  }
+  &--linkedin {
+    background-position: -4rem 0; 
+  }
+  &--googleplus {
+    background-position: -12rem 0; 
+  }
+  &--email {
+    background-position: -16rem 0; 
+  }
+}

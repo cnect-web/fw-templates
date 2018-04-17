@@ -1,0 +1,49 @@
+.list--file {
+  padding: 0;
+
+  .list__item--file {
+    list-style: none;
+    background: transparent no-repeat left top;
+    background-size: 32px 38px;
+    padding-left: 45px;
+
+    &.list__item--pdf {
+      background-image:  url(../images/file--pdf.jpg);
+    }
+    &.list__item--url {
+      background-image:  url(../images/file--url.jpg);
+    }
+
+    p {
+      margin: 0 0 0.8rem 0;
+    }
+  }
+}
+
+.list--taxonomy {
+  padding: 0;
+  
+  .list__item--tag {
+    display: inline-block;
+    margin: 0.1rem 0.5rem 0.3rem 0;
+  
+    &::last-child {
+      margin-right: 0;
+    }
+  }
+  
+}
+
+.list--social-share {
+  padding: 0;
+  
+  .list__item--social-media {
+    display: inline-block;
+    
+    margin-right: 1.8rem;
+
+    &:last-child {
+      margin-right: 0rem;
+    }
+  }
+}

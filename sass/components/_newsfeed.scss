@@ -1,0 +1,53 @@
+.newsfeed {
+  
+  background-color: $white;
+  
+  p, h2, h3, h4, h5, h6, li {
+    max-width: 32em;
+  }
+  
+  &__item {
+    h2 {
+      padding-left: 32px;
+      background: transparent left top no-repeat;
+      background-size: 22px 24px;
+    }
+    
+    h2 a {
+      font-family: 'Raleway';
+      font-weight: 800;
+      color: $gray-800;
+      text-shadow: none;
+      box-shadow: none;
+      
+      &:hover {
+        color: $purple;
+        
+        text-shadow: 0 2px 0 $white, 0 3px 0 $white, 1px 2px 0 $white, -1px 2px 0 $white;
+        box-shadow: 0 1px 0 0 $purple;
+      }
+    }
+    
+    &__cover{
+      border-radius: 10px;
+    }
+  }
+  
+  &__item--discussion {
+    h2 {
+      background-image: url(../images/article--discussion-icon.svg);
+      background-size: 2.38rem 2.5rem; 
+    }
+  }
+  
+  .sub-section {
+    border-top: solid 1px $gray-500;
+  }
+}
+
+@media (min-width: 768px) {
+  .newsfeed {
+    margin-top: 60px;
+  }
+  
+}

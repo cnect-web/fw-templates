@@ -1,0 +1,81 @@
+.post-info {
+  margin-bottom: 2rem;
+
+  &.post-info--group {
+    
+    background: url(../images/post-info--group__background.svg) no-repeat left top;
+    background-size: 5.7rem 8.3rem;
+    
+    .post-info__ilustration {
+      width: 5.7rem;
+      height: 8.3rem;
+      margin-right: 1.7rem;
+      float: left;
+    }
+    
+    .post-info__picture--account {
+      margin-left: 0.5rem;
+      margin-top: 0.6rem;
+    }
+    
+  }
+    
+  .post-info__link {
+    text-shadow: none;
+    box-shadow: none;
+
+    .post-info__picture {
+      border-radius: 100px;
+
+    }
+
+    .post-info__picture--account {
+      width: 4.6rem;
+      
+      border: solid 2px $pink;
+    }
+
+    .post-info__picture--group {
+      width: 2rem;
+      margin-left: 3rem;
+      border: solid 1px $pink;
+    }
+  }
+    
+  
+  &.post-info--no-group {
+    .post-info__ilustration {
+      width: 5.6rem;
+      height: 5.6rem;
+      margin-right: 1.7rem;
+      float: left;
+      border: solid 0.5rem scale-lightness($pink, 40);
+      border-radius: 6rem;
+    }
+  }
+  
+  &__details {
+    float: left;
+    width: calc(100% - 7.4rem);
+    
+    .post-info__author {
+      
+      font-size: 2rem;
+      font-weight: 700;
+      color: $gray-700;
+      margin: 0;
+      padding: 0.2rem 0 0 0;
+      
+      .post-info__account-link {
+        text-shadow: none;
+        box-shadow: none;
+        font-weight: 700;
+        color: $gray-700;
+      }
+    }
+    
+    .post-info__metadata {
+      margin-top: 0.5rem
+    }
+  }
+}
