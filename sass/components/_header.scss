@@ -34,12 +34,13 @@
 
 @media (min-width: 992px) {
   .general-header {
-    position: relative; 
+    position: fixed; 
     right: auto;
     bottom: auto;
     left: auto;
     top:auto;
     width: 25%;
+    max-width: 300px;
     background: $gray-800;
     float: left;
     height: 100vh;

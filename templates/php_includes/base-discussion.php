@@ -16,9 +16,9 @@ function includeWithParams($fileName, $variablesArray) {
 </head>
   
 <body>
-<div id="skip-link">
-  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-</div> 
+<a href="#main-content" class="visually-hidden focusable skip-link">
+  Skip to main content
+</a>  
   
 <div class="general-container">
 <?php include("components/logo-area.php"); ?>

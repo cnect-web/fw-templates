@@ -4,9 +4,10 @@
     left: 1.5em;
     z-index: 1060;
   background: $white;
+  pading: 15px;
 }
 
-.element-invisible {
+.visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px,1px,1px,1px);
@@ -14,7 +15,7 @@
     height: 1px;
 }
 
-.element-invisible.element-focusable:active, .element-invisible.element-focusable:focus {
+.focusable:active, .focusable:focus {
     position: static !important;
     clip: auto;
     overflow: visible;
@@ -30,7 +31,7 @@
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important;
-}
+} 
 
 .clearfix {
   overflow: auto;

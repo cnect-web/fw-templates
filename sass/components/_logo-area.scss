@@ -35,7 +35,9 @@ $logo-area__background-image--lg: $logo-area__background-image !default;
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+  .logo-area {
+    width: 25%;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)

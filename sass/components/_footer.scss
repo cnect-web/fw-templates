@@ -36,11 +36,25 @@
 @media (min-width: 992px) {
   .general-footer {
     width: 25%;
+    max-width: 300px;
     position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
     bottom: auto;
     height: 100vh;
     float: right;
     background-color: $gray-800;
     z-index: 4;
+    padding: 60px 15px;
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+    
+    
+    > * {
+      position: fixed;
+      width: calc(25% - 30px);
+      max-width: 270px;
+    }
   }
 }
