@@ -33,8 +33,16 @@
   left: -9999px !important;
 } 
 
-.clearfix {
+/*.clearfix {
   overflow: auto;
+}*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 @media (min-width: 768px) {
