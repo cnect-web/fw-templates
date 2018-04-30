@@ -1,9 +1,11 @@
-.share {
+a.share {
   background: $gray-700 url(../images/share-icons.svg) no-repeat;
   display: inline-block;
   width: 4rem;
   height: 4rem;
   border-radius: 4rem;
+  text-shadow: none;
+  box-shadow: none;
   
   
   &--facebook {
@@ -21,4 +23,42 @@
   &--email {
     background-position: -16rem 0; 
   }
+}
+
+@media (min-width: 768px) {
+  a.share {
+    width: auto;
+    padding-left: 0rem;
+    background: none;
+    border-radius: 0;
+    text-decoration: none;
+    box-shadow: none;
+    
+    &:before {
+      content: "";
+      background: $gray-700 url(../images/share-icons.svg) no-repeat;
+      display: inline-block;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 4rem;
+      box-shadow: none;
+    }
+    
+    &--facebook:before {
+    background-position: 0 0; 
+    }
+    &--twitter:before {
+      background-position: -8rem 0; 
+    }
+    &--linkedin:before {
+      background-position: -4rem 0; 
+    }
+    &--googleplus:before {
+      background-position: -12rem 0; 
+    }
+    &--email:before {
+      background-position: -16rem 0; 
+    }
+  }
+  
 }

@@ -139,9 +139,19 @@
       }
       
       .navigation-menu__item:first-child {
-        padding:0;
-        margin-left: 15px;
-        margin-top: -15px;
+        display: block;
+          margin: 11px 0% 0 -8.75%;
+          position: absolute;
+          height: 54px;
+          width: 54px;
+      }
+      
+      .navigation-menu__item:nth-child(2) {
+        display: block;
+          margin: 0px 0% 0 -3.75%;
+          position: absolute;
+          height: 42px;
+          width: 42px;
       }
       
       .navigation-menu__item--tool {
@@ -152,14 +162,11 @@
         color: $gray-900;
       
         &.navigation-menu__item--filter {
-          background-size: 54px 54px;
-          display: inline-block;
           height: 54px;
           width: 54px;
-          text-align: center;
+          background-size: 54px 54px;
           font-size: 2rem;
-          padding-top: 0.8rem;
-          margin: -8px 0 0 0px;
+          padding-top: 0.9rem;
           svg {
             margin: auto;
           }
@@ -172,6 +179,9 @@
           height: 42px;
           width: 42px;
           margin: 30px 20px 0 8px;
+          svg {
+            margin: auto;
+          }
         }
       }
       

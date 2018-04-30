@@ -1,5 +1,5 @@
 <?php 
-  if($groupFullName != "") {
+ if($groupFullName != "") {
     $wrapperClass = "post-info--group";
 ?>
 <div class="post-info <?php echo $wrapperClass ?> clearfix">
@@ -8,9 +8,14 @@
     <a href="#" class="post-info__link post-info__link--account">
       <img src="<?php echo $authorPics; ?>" alt="<?php echo $authorFullName; ?>" class="post-info__picture post-info__picture--account responsive">
     </a>
+      
+    
     <a href="#" class="post-info__link post-info__link--group">
       <img src="<?php echo $groupPics; ?>" alt="<?php echo $groupFullName ?>" class="post-info__picture post-info__picture--group responsive">
     </a>
+    
+
+ 
   </div>
 
   <div class="post-info__details">

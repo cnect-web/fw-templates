@@ -51,13 +51,13 @@ a:not(.toolbar-item){
   height: 100%;
   max-width: 1200px;
   margin: auto;
-  background-color: $gray-800;
+  background-color: $white;
   overflow: hidden;
 }
 
 main {
-  margin-top: -5vh;
-  padding: 50px 15px 75px;
+  margin-top: -36px;
+  padding: 0px 15px 75px;
 }
 
 main *:not(img):not(svg)::selection  {
@@ -73,14 +73,16 @@ main *:not(img):not(svg)::selection  {
   }
   
   main {
-  margin-top: 0;
-  margin-left: 33%;
-  width: 66%;
+    margin-top: 0;
+    margin-left: 33%;
+    width: 66%;
+    padding-top: 75px;
   }
 }
 
 @media (min-width: 992px) {
   main {
+    margin-top: -20px;
     margin-left: 25%;
     width: 50%;
     left: auto;
