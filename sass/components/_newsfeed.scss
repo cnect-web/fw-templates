@@ -1,9 +1,16 @@
 .newsfeed {
   
   background-color: $white;
+  text-align: left;
   
   p, h2, h3, h4, h5, h6, li {
     max-width: 32em;
+  }
+  
+  article {
+    padding-left: 15px;
+  padding-right: 15px;
+    padding-top: 5.5rem;
   }
   
   &__item {
@@ -11,6 +18,12 @@
       padding-left: 32px;
       background: transparent left top no-repeat;
       background-size: 22px 24px;
+      margin: 0 0 1.8rem 0;
+      
+      .newsfeed__item__state {
+        opacity: 0.8;
+        white-space: nowrap;
+      }
     }
     
     h2 a {
@@ -39,8 +52,72 @@
       background-size: 2.38rem 2.5rem; 
     }
   }
+  &__item--draft {
+    h2 {
+      background-image: url(../images/article--draft-icon.svg);
+      background-size: 2.38rem 2.5rem; 
+    }
+  }
+  &__item--pinned {
+    h2 {
+      background-image: url(../images/article--pinned-icon.svg);
+      background-size: 2.38rem 2.5rem; 
+      padding-left: 25px;
+    }
+  }
   
   .sub-section {
     border-top: solid 1px $gray-500;
+  }
+  
+  .newsfeed__item--short {
+    background-image: url(../images/hr--wavy.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 7.5rem 15px 4rem 15px;
+    background-size: 100% 40px;
+    
+    &:first-child {
+      padding-top: 4rem;
+      background-image: none !important;
+    }
+  }
+  
+  .newsfeed__item--pinned {
+    
+    color: $gray-900;
+    
+    background-image: url(../images/hr--wavy.svg), linear-gradient( scale-lightness($purple, 90%) 50%, scale-lightness($purple, 90%) 50%), ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center bottom;
+    background-size: 100% 40px, 100% calc(100% - 28px);
+    
+    a, a:hover, h2 a, h2 a:hover {
+      text-shadow: 0 2px 0 scale-lightness($purple, 90%), 0 3px 0 scale-lightness($purple, 90%), 1px 2px 0 scale-lightness($purple, 90%), -1px 2px 0 scale-lightness($purple, 90%);
+    }
+    
+    &.newsfeed__item--short:first-child{
+      background-color: scale-lightness($purple, 90%);
+    }
+  }
+  
+  .newsfeed__item--draft {
+    
+    //h2, h3, h4, h5, h6, p, li {
+      color: $gray-900;
+    //}
+
+    background-image: url(../images/hr--wavy.svg), linear-gradient( scale-lightness($red, 90%) 50%, scale-lightness($red, 90%) 50%) ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center bottom;
+    background-size: 100% 40px, 100% calc(100% - 28px);
+    
+    > * a, > * a:hover, h2 a, h2 a:hover {
+      text-shadow: 0 2px 0 scale-lightness($red, 90%), 0 3px 0 scale-lightness($red, 90%), 1px 2px 0 scale-lightness($red, 90%), -1px 2px 0 scale-lightness($red, 90%);
+    }
+    
+    &.newsfeed__item--short:first-child{
+      background-color: scale-lightness($red, 90%);
+    }
   }
 }

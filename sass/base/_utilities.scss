@@ -45,6 +45,11 @@
   visibility: hidden;
 }
 
+.sideinfo {
+  font-size: 0.7em;
+  opacity: 0.8;
+}
+
 @media (min-width: 768px) {
   .no-display--sm {
     position: inherit !important;

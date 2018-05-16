@@ -1,5 +1,12 @@
 <div class="sub-section sub-section--attachment">
-  <h3>Attachment</h3>
+  
+  <?php 
+  if ( isset($title) ) {
+    echo "<h3>" . $title . "</h3>"; 
+  } else {
+    echo "<h3>Attachment</h3>";  
+  }
+  ?>
 
   <ul class="list list--file list--attachment">
     <li class="list__item list__item--file list__item--pdf">

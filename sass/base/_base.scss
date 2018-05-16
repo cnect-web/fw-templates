@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
 }
 
+h4, h5, h6 {
+  color: $gray-600;
+}
+
 a:not(.toolbar-item){
   color: $purple;
   transition: all 0.2s;
@@ -40,11 +44,11 @@ a:not(.toolbar-item){
   transition: all .2s ease;
   
   &:hover {
-    color: $darkblue;
+    color: scale-lightness($blue, -40%);
     box-shadow: 0 1px 0 0 $body__background-color;
     transition: all .2s ease;
   }
-} 
+}
 
 .general-container {
   width:100%;
@@ -57,7 +61,8 @@ a:not(.toolbar-item){
 
 main {
   margin-top: -36px;
-  padding: 0px 15px 75px;
+  padding: 0px 0px 75px;
+  min-height: 100vh;
 }
 
 main *:not(img):not(svg)::selection  {
@@ -77,6 +82,8 @@ main *:not(img):not(svg)::selection  {
     margin-left: 33%;
     width: 66%;
     padding-top: 75px;
+    padding: 75px 0px 0px;
+
   }
 }
 

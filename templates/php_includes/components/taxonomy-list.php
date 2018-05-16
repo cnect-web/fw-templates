@@ -1,5 +1,11 @@
 <div class="sub-section sub-section--related-taxonomy">
-  <h3>Related topics</h3>
+  <?php 
+  if ( isset($title) ) {
+    echo "<h3>" . $title . "</h3>"; 
+  } else {
+    echo "<h3>Related topics</h3>";  
+  }
+  ?>
   <ul class="list list--taxonomy">
     <?php
     foreach($tags as $tag) {

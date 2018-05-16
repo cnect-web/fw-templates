@@ -22,15 +22,20 @@
   
   &.post-info--no-group {
     
+    display: flex;
     background: none;
     
     .post-info__ilustration {
       width: 5.6rem;
       height: 5.6rem;
       margin-right: 1.7rem;
-      float: left;
+      flex: 0 0 5.6rem;
       border-radius: 100px;
       border: solid 5px rgba($pink, 0.5);
+    }
+    
+    .post-info__action {
+      flex: 0 0 5.6rem;
     }
     
     img.responsive.post-info__picture--account {
@@ -159,7 +164,8 @@
     }
     
     .post-info__metadata {
-      margin-top: 0.5rem
+      margin-top: 0.2rem;
+      line-height: 1.4;
     }
   }
 }
