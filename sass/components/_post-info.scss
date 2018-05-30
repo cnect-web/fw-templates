@@ -1,31 +1,31 @@
-.post-info {
+.profile-shortinfo {
   margin-bottom: 2rem;
 
-  &.post-info--group {
+  &.profile-shortinfo--group {
     
-    background: url(../images/post-info--group__background.svg) no-repeat left top;
+    background: url(../images/profile-shortinfo--group__background.svg) no-repeat left top;
     background-size: 5.7rem 8.3rem;
     
-    .post-info__ilustration {
+    .profile-shortinfo__ilustration {
       width: 5.7rem;
       height: 8.3rem;
       margin-right: 1.7rem;
       float: left;
     }
     
-    img.responsive.post-info__picture--account {
+    img.responsive.profile-shortinfo__picture--account {
       margin-left: 0.5rem;
       margin-top: 0.6rem;
     }
     
   }
   
-  &.post-info--no-group {
+  &.profile-shortinfo--no-group {
     
     display: flex;
     background: none;
     
-    .post-info__ilustration {
+    .profile-shortinfo__ilustration {
       width: 5.6rem;
       height: 5.6rem;
       margin-right: 1.7rem;
@@ -34,16 +34,16 @@
       border: solid 5px rgba($pink, 0.5);
     }
     
-    .post-info__action {
+    .profile-shortinfo__action {
       flex: 0 0 5.6rem;
     }
     
-    img.responsive.post-info__picture--account {
+    img.responsive.profile-shortinfo__picture--account {
       margin-left: 0rem;
       margin-top: 0rem;
     }
     
-    .post-info__link.post-info__link--account {
+    .profile-shortinfo__link.profile-shortinfo__link--account {
       margin-left: 0rem;
       margin-top: 0rem;
     }
@@ -52,14 +52,14 @@
     
     
     
-    img.responsive.post-info__picture--account {
+    img.responsive.profile-shortinfo__picture--account {
       width: 4.6rem;
       height: 4.6rem;
       border-radius: 100px;
       display: block;
     }
     
-    img.responsive.post-info__picture--group {
+    img.responsive.profile-shortinfo__picture--group {
       margin-left: 3rem;
       margin-top: 5px;
       width: 2rem;
@@ -68,18 +68,18 @@
       display: block;
     }
     
-    .post-info__link {
+    .profile-shortinfo__link {
     text-shadow: none;
     box-shadow: none;
     
-    img.responsive.post-info__picture--account {
+    img.responsive.profile-shortinfo__picture--account {
       margin-left: 0;
       margin-top: 0;
       width: calc(4.6rem - 4px);
       height: calc(4.6rem - 4px);
     }
     
-    img.responsive.post-info__picture--group {
+    img.responsive.profile-shortinfo__picture--group {
       margin-left: 0;
       margin-top: 0;
       width: calc(2rem - 2px);
@@ -141,7 +141,7 @@
     float: left;
     width: calc(100% - 7.4rem);
     
-    .post-info__author {
+    .profile-shortinfo__author {
       
       font-size: 2rem;
       font-weight: 700;
@@ -149,7 +149,7 @@
       margin: 0;
       padding: 0.2rem 0 0 0;
       
-      .post-info__account-link {
+      .profile-shortinfo__account-link {
         text-shadow: none;
         box-shadow: none;
         font-weight: 700;
@@ -163,7 +163,7 @@
       }
     }
     
-    .post-info__metadata {
+    .profile-shortinfo__metadata {
       margin-top: 0.2rem;
       line-height: 1.4;
     }

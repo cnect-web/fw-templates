@@ -10,15 +10,15 @@ foreach ($listing as $item) {
   
 ?>
 
-<div class="post-info post-info--no-group clearfix">  
+<div class="profile-shortinfo profile-shortinfo--no-group clearfix">  
   
-  <div class="post-info__ilustration">
-    <a href="#" class="post-info__link post-info__link--account">
-      <img src="<?php echo $pictureURL ?>" alt="<?php echo $item["profileFullName"] ?>" class="post-info__picture post-info__picture--account responsive">
+  <div class="profile-shortinfo__ilustration">
+    <a href="#" class="profile-shortinfo__link profile-shortinfo__link--account">
+      <img src="<?php echo $pictureURL ?>" alt="<?php echo $item["profileFullName"] ?>" class="profile-shortinfo__picture profile-shortinfo__picture--account responsive">
     </a>
   </div>
   
-  <div class="post-info__details">
+  <div class="profile-shortinfo__details">
     
     <?php
     if(isset($subGroupURL)){
@@ -28,14 +28,14 @@ foreach ($listing as $item) {
     }
     ?>
     
-    <h4 class="post-info__author"><a href="<?php echo $link; ?>" class="post-info__link post-info__account-link"><?php echo $item["profileFullName"] ?>
+    <h4 class="profile-shortinfo__author"><a href="<?php echo $link; ?>" class="profile-shortinfo__link profile-shortinfo__account-link"><?php echo $item["profileFullName"] ?>
       <?php
       if($x == 2 && $hasadmin == true) {
       echo '<span class="newsfeed__item__state sideinfo"> [ admin ]</span>';
       }
       ?>
       </a></h4>
-    <p class="post-info__metadata">
+    <p class="profile-shortinfo__metadata">
       <?php    
       if(is_array($item["meta01"])){
         echo $item["meta01"][0] . ", " .$item["meta01"][1];
@@ -54,8 +54,8 @@ foreach ($listing as $item) {
   </div>
   
   <?php if (isset($action)) { ?>
-  <div class="post-info__action">
-    <a href="#" class="post-info__action--<?php echo str_replace(' ', '', $action); ?>">
+  <div class="profile-shortinfo__action">
+    <a href="#" class="profile-shortinfo__action--<?php echo str_replace(' ', '', $action); ?>">
       <span class="sr-only"><?php echo $action; ?></span>
     </a>
   </div>

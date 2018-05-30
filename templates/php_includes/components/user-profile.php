@@ -58,7 +58,7 @@
   <header>
 <h2><a href="#"><?php echo $postTitle; ?></a><span class="newsfeed__item__state sideinfo"> [ pinned ]</span></h2>
 
-<?php includeWithParams("components/post-info.php", $postInfo); ?>
+<?php includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
 
 <img src="tmp_resources/cover01.jpg" class="newsfeed__item__cover responsive" alt="flags">    
     
@@ -80,7 +80,7 @@
   <header>
 <h2><a href="#"><?php echo $postTitle; ?></a><span class="newsfeed__item__state sideinfo"> [ ! draft ]</span></h2>
 
-<?php includeWithParams("components/post-info.php", $postInfo); ?>
+<?php includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
 
 <img src="tmp_resources/cover01.jpg" class="newsfeed__item__cover responsive" alt="flags">    
     
@@ -102,7 +102,7 @@
   <header>
 <h2><a href="#"><?php echo $postTitle; ?></a></h2>
 
-<?php includeWithParams("components/post-info.php", $postInfo); ?>
+<?php includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
 
 <img src="tmp_resources/cover01.jpg" class="newsfeed__item__cover responsive" alt="flags">    
     
