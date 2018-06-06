@@ -27,11 +27,7 @@ function includeWithParams($fileName, $variablesArray) {
   'logged'=>array('accountName'=>'Richard Phillips Feynman', 'nbNotifications'=>'7', 'list'=>true, 'accountPicture' => 'tmp_resources/accountPicture.jpg')
 )); ?>
 
-<<<<<<< HEAD
 <main>
-=======
-<main class="form-wrapper">
->>>>>>> d8775734bd7c5fc91f87c18da270f277c10a52e0
   
   <h2>About me</h2>
   

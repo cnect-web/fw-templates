@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $logo__font-weight: bold !default;
 $logo__color: $gray-900 !default;
 $logo-area__background-image: none !default;
@@ -44,51 +43,4 @@ $logo-area__background-image--lg: $logo-area__background-image !default;
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
-=======
-$logo__font-weight: bold !default;
-$logo__color: $gray-900 !default;
-$logo-area__background-image: none !default;
-$logo-area__background-image--sm: $logo-area__background-image !default;
-$logo-area__background-image--md: $logo-area__background-image !default;
-$logo-area__background-image--lg: $logo-area__background-image !default;
-
-.logo-area {
-  background-image: $logo-area__background-image--sm;
-  background-repeat: no-repeat;
-  background-size: 100vw 10vh;
-  background-position: center top;
-  height: 100px;
-  width: 100vw;
-}
-
-.logo-title {
-  font-weight: $logo__font-weight;
-  color: $logo__color; 
-  margin: 0;
-  padding: 1.5vw;
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .logo-area {
-    position: fixed;
-    z-index: 6;
-    top:0;
-    // background image defined in the navigation for z-index issue
-    background-image: none;
-  }
-  
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .logo-area {
-    width: 25%;
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
->>>>>>> d8775734bd7c5fc91f87c18da270f277c10a52e0
 } 
