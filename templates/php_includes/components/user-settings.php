@@ -20,7 +20,11 @@
       <li class="profile__networks__item profile__groups"><a href="base-list-of-groups.php?hasadmin=false">12 groups</a></li>
     </ul>
     
+<<<<<<< HEAD
   </header>
+=======
+</header>
+>>>>>>> d8775734bd7c5fc91f87c18da270f277c10a52e0
   
   <nav class="inpage-nav">  
   <ul class="nav--tabs" role="tablist">

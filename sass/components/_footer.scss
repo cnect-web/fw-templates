@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (min-width: 768px) {
   .general-footer {
     position: fixed !important;
@@ -57,4 +58,65 @@
       max-width: 270px;
     }
   }
+=======
+@media (min-width: 768px) {
+  .general-footer {
+    position: fixed !important;
+    bottom:10px;
+    z-index: 500;
+    width: 33%;
+    
+    ul { 
+      padding: 0;
+      margin: 1.5rem;
+      li {
+        display: inline-block;
+      
+        &::after {
+          content: " | ";
+        }
+        
+        a {
+          color: $gray-500;
+          text-shadow: 0 2px 0 $gray-800, 0 3px 0 $gray-800, 1px 2px 0 $gray-800, -1px 2px 0 $gray-800;
+          box-shadow: 0 1px 0 0 $gray-400;
+          transition: all .2s ease;
+
+          &:hover {
+            color: $darkblue;
+            box-shadow: 0 1px 0 0 $body__background-color;
+            transition: all .2s ease;
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .general-footer {
+    width: 25%;
+    max-width: 300px;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto;
+    height: 100vh;
+    float: right;
+    background-color: $gray-800;
+    z-index: 4;
+    padding: 60px 15px;
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+    
+    
+    > * {
+      position: fixed;
+      width: calc(25% - 30px);
+      max-width: 270px;
+    }
+  }
+>>>>>>> d8775734bd7c5fc91f87c18da270f277c10a52e0
 }

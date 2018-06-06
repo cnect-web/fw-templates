@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sub-section--related {
   &__title {
     padding-left: 3.6rem;
@@ -11,4 +12,19 @@
     background-size: 2.7rem 2.3rem, 2.38rem 2.5rem;
     
   }
+=======
+.sub-section--related {
+  &__title {
+    padding-left: 3.6rem;
+    min-height: 3.7rem;
+  }
+  
+  &__title--discussion {
+    background-image: url(../images/follow-up__background.svg), url(../images/article--discussion-icon.svg);
+    background-position: 0rem 1.1rem, 0.5rem 0;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 2.7rem 2.3rem, 2.38rem 2.5rem;
+    
+  }
+>>>>>>> d8775734bd7c5fc91f87c18da270f277c10a52e0
 }

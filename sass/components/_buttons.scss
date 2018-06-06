@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin button-bg($bg) {
   
   display: inline-block;
@@ -98,4 +99,106 @@ a.btn, input.btn, button.btn {
   }
 }
   
+=======
+@mixin button-bg($bg) {
+  
+  display: inline-block;
+  background: $bg;
+  box-shadow: 0 0 0 4px rgba($bg, 0.5) !important;
+  text-shadow: none;
+  
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+    
+  }
+  &:active {
+    background:darken($bg,25%);
+  }
+}
+
+.btn-list--right {
+  text-align: right; 
+}
+
+.btn-list--center {
+  text-align: center; 
+  width: 100%;
+  margin: auto;
+  
+  > .btn {
+    display: block;
+     margin: 2.5rem auto 2rem auto;
+  }
+}
+
+.btn.btn--large {
+  width: 100%;
+  padding: 0.3rem 1rem;
+  font-size: 1.8rem;
+}
+
+
+a.btn, input.btn, button.btn {
+   color: $gray-900;
+   font-size: 1.6rem;
+   text-decoration:none;
+   padding: 0.1rem 1.5rem;
+   border-radius:300px;
+   text-align: center;
+   text-shadow: none !important;
+   min-width: 12rem;
+   font-weight: 700;
+   line-height: 1.3;
+   margin-right: 15px;
+   border: none;
+   cursor: pointer;
+
+   &:last-child {
+      margin-right: 0px;
+   }
+
+   &:hover {
+      color: $white;
+   }
+  
+   &:focus {
+      box-shadow: 0 0 0 4px $purple !important;
+     outline: none;
+  }
+}
+
+.btn--green {
+   @include button-bg($teal);
+}
+
+.btn--blue {
+   @include button-bg($cyan);
+}
+
+.btn--grey {
+   @include button-bg($gray-400);
+}
+
+.btn-list {
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  
+  .btn.btn--large {
+    padding: 0.4rem 0rem;
+    font-size: 2rem;
+  }
+  
+  .btn-list--center {
+  width: 60%;
+  
+  > .btn {
+    display: block;
+     margin: 2.5rem auto 2rem auto;
+  }
+}
+  
+>>>>>>> d8775734bd7c5fc91f87c18da270f277c10a52e0
 }
