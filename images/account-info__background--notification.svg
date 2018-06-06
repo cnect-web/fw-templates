@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -7,16 +6,6 @@
 	 xml:space="preserve">
 <g>
 	
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="101.75px" height="88.625px" viewBox="-27.75 -3.625 101.75 88.625" enable-background="new -27.75 -3.625 101.75 88.625"
-	 xml:space="preserve">
-<g>
-	
->>>>>>> d8775734bd7c5fc91f87c18da270f277c10a52e0
 		<image overflow="visible" opacity="0.75" width="104" height="93" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABdCAYAAABJqyO/AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAFy9JREFUeNrsXe1SHEeWPZlV/UWD
 +JKEGDNj74S9s8v+2lCE/1ovoXkdicfYVxhewv47EQ5H7EYoYjY8XtuSjBBCIKDpj/rIPSczu+lG
@@ -123,7 +112,6 @@ P7i2VHCq2N/fcjr3TNqt1AlcjvazNnr3fwecCYNONhpOTFYhOAfs/B3ay69sKPOpMPW0tu1UiELL
 d1601WnKVYoSKVlmCKJLLPLceOutQ+Q6nRI900a3QeDkJfAT0ffYqH0C0FnEnrpoHVbFybXdjHY0
 UXqUMnCU5NEuQrEKxXK0SZY80t0O8mYDOb8rtnso7s8TlIfRCfoeXvIJQO8LV8x/oLlgnmzBrsb8
 h/4J2slM4QLvkd4K3ooYOvigjp4AdE5mjeQ/QHsGx5D7BW0ZPQFozF//L8AAGr7Z5FwdmcwAAAAA
-<<<<<<< HEAD
 SUVORK5CYII=" transform="matrix(1 0 0 1 -29.5 -6)">
 	</image>
 	<g>
@@ -137,18 +125,3 @@ SUVORK5CYII=" transform="matrix(1 0 0 1 -29.5 -6)">
 	</g>
 </g>
 </svg>
-=======
-SUVORK5CYII=" transform="matrix(1 0 0 1 -29.5 -6)">
-	</image>
-	<g>
-		<path fill="#121D3D" d="M62.164,53.029c0.027-0.043,0.043-0.07,0.043-0.07c-6.135-4.976-5.672-10.116-5.666-16.078
-			c0.238-1.468,0.375-2.97,0.375-4.506c0-15.464-12.536-28-28-28c-4.834,0-9.383,1.226-13.352,3.382
-			C7.877,9.864,4.182,2.965-1.884,1.167C-1.943,1.148-2,1.153-2.06,1.14c-4.077-1.651-8.833-1.533-13.001,0.729
-			c-7.403,4.016-10.148,13.273-6.132,20.677c2.329,4.293,6.423,7.006,10.894,7.755c-0.003,0.052-0.003,0.083-0.003,0.083
-			c7.765,1.448,9.81,6.187,12.646,11.431c0.491,1.403,1.087,2.789,1.819,4.139c5.102,9.402,14.807,14.708,24.805,14.648
-			c7.454,1.947,7.492,9.609,11.905,14.023c0.044,0.045,0.096,0.068,0.142,0.107c2.797,3.395,7.033,5.56,11.775,5.56
-			c8.422,0,15.25-6.827,15.25-15.25C68.041,60.158,65.736,55.82,62.164,53.029z"/>
-	</g>
-</g>
-</svg>
->>>>>>> d8775734bd7c5fc91f87c18da270f277c10a52e0
