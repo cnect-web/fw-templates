@@ -1,0 +1,79 @@
+<?php 
+function includeWithParams($fileName, $variablesArray) {
+   extract($variablesArray);
+   include($fileName);
+}
+?>
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile settings Christina Mattews - NGF</title>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script>(function(e,t,n){var r=e.querySelectorAll("html")[0];r.className=r.className.replace(/(^|\s)no-js(\s|$)/,"$1js$2")})(document,window,0);</script>
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+</head>
+  
+<body>
+<a href="#main-content" class="visually-hidden focusable skip-link">
+  Skip to main content
+</a>  
+  
+<div class="general-container">
+<?php include("components/logo-area.php"); ?>
+<?php includeWithParams("components/header.php", array(
+  'logged'=>array('accountName'=>'Richard Phillips Feynman', 'nbNotifications'=>'7', 'list'=>true, 'accountPicture' => 'tmp_resources/accountPicture.jpg')
+)); ?>
+
+<?php includeWithParams("components/user-settings.php", array(
+  'title'=> 'Christina Mattews',
+  'postTitle'=> 'Lorem ipsum sit dolor amet',
+  'tags' => array("a" => "Lorem", "b" => "ipsum sit dorlor", "c" => "Etiam", "d" => "Nulla tindunt saius"),
+  'postInfo' => array(
+    "authorFullName" => "Christina Mattews",
+    "authorProfileURL" => "base-user-profile.php",
+    "authorPics" => "tmp_resources/userPicture01.jpg",
+    "authorGuid" => 15,
+    "postTime" => "18 mins ago"
+  )
+)); ?> 
+  
+<?php include("components/footer.php"); ?>
+</div>  
+<!-- 
+FOUT WITH A CLASS: CSS Font Loading API
+https://github.com/typekit/webfontloader
+-->  
+<script>
+WebFontConfig = {
+    google: { families: [ 'Montserrat:300,400,500,700,800,900:latin', 'Raleway:300,400,500,700,800,900:latin'] },
+    active: function() {
+      sessionStorage.fonts = true;
+    }
+  };
+
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();  
+</script>  
+  
+  <script src="../../js/custom-file-input.js"></script>
+  
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+  
+  
+  <script src="../../js/nav-tab.js"></script>
+  
+</body>
+</html>
