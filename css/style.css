@@ -1544,7 +1544,7 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   border-radius: 10px;
 }
 
-.newsfeed__item--discussion h2 {
+.newsfeed__item--ngf-discussion h2 {
   background-image: url(../images/article--discussion-icon.svg);
   background-size: 2.38rem 2.5rem;
 }

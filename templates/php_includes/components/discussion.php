@@ -1,5 +1,5 @@
 <main>
-<article class="newsfeed__item newsfeed__item--detailed newsfeed__item--discussion">
+<article class="newsfeed__item newsfeed__item--detailed newsfeed__item--ngf-discussion">
   <header>
 <h2><a href="#"><?php echo $title; ?></a></h2>
 
