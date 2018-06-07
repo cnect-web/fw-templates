@@ -1,6 +1,6 @@
 <div class="sub-section sub-section--comments">
 
-<h3>2 comments</h3>
+<h3 class="sub-section__title sub-section--related__title sub-section--comments__title">2 comments</h3>
 
 <ul>
   <li>
@@ -66,6 +66,82 @@
      <p>Nullam suscipit porttitor sem quis tristique. Etiam eu eros quis sapien efficitur molestie. Suspendisse sit amet orci nec nulla tincidunt tincidunt eu rhoncus ex. Phasellus tristique orci sit amet dui accumsan cursus. Nulla placerat urna id mauris tempus, vel egestas libero vehicula.</p>
     
      <p><a href="" class="comment__link--reply">reply</a></p>
+    
+      <ul>
+       <li>
+    
+    <?php
+    
+    $postInfo = array(
+    "authorFullName" => "Charlie Cox",
+    "authorProfileURL" => "http://localhost/futurium/templates/php_includes/base-user-profile.php",
+    "authorPics" => "tmp_resources/userPicture05.jpg",
+    "authorGuid" => 15,
+    "postTime" => "18 mins ago"
+  );
+    
+    
+     includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
+    
+     <p>Aliquam justo felis, euismod quis urna eget, elementum aliquam massa. Pellentesque condimentum nisl dui, eget cursus lorem pulvinar id. </p>
+         
+     <p><a href="" class="comment__link--reply">reply</a></p>
+         
+         
+          <ul>
+       <li>
+    
+    <?php
+    
+    $postInfo = array(
+    "authorFullName" => "Charlie Cox",
+    "authorProfileURL" => "http://localhost/futurium/templates/php_includes/base-user-profile.php",
+    "authorPics" => "tmp_resources/userPicture05.jpg",
+    "authorGuid" => 15,
+    "postTime" => "18 mins ago"
+  );
+    
+    
+     includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
+    
+     <p>Aliquam justo felis, euismod quis urna eget, elementum aliquam massa. Pellentesque condimentum nisl dui, eget cursus lorem pulvinar id. </p>
+         
+     <p><a href="" class="comment__link--reply">reply</a></p>
+         
+         
+         <ul>
+       <li>
+    
+    <?php
+    
+    $postInfo = array(
+    "authorFullName" => "Charlie Cox",
+    "authorProfileURL" => "http://localhost/futurium/templates/php_includes/base-user-profile.php",
+    "authorPics" => "tmp_resources/userPicture05.jpg",
+    "authorGuid" => 15,
+    "postTime" => "18 mins ago"
+  );
+    
+    
+     includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
+    
+     <p>Aliquam justo felis, euismod quis urna eget, elementum aliquam massa. Pellentesque condimentum nisl dui, eget cursus lorem pulvinar id. </p>
+         
+     <p><a href="" class="comment__link--reply">reply</a></p>
+         
+  </li>
+     </ul>
+         
+         
+  </li>
+     </ul>
+         
+         
+         
+  </li>
+     </ul>
+    
+    
   </li>
   
   <li>
@@ -95,10 +171,10 @@
   <label for="field-ID-1" >
     Add a comment</label>
     <textarea name="field-name-1" id="field-ID-1" class="form__input form__input--text" placeholder=""></textarea>
-</div>
+  </div>
   
   <div class="form__block form__block--onecol btn-list--right">  
-  <button class="btn btn--green"><i class="fas fa-plus"></i> Add</button>
+  <button class="btn btn--green"><i class="fas fa-plus"></i> Add <span class="sr-only">your comment</span></button>
 </div>
   
 </form>

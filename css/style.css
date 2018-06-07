@@ -979,8 +979,14 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   }
 }
 
-.sub-section--comments h3 {
-  margin-bottom: 2rem;
+.sub-section--comments__title {
+  padding-left: 3.6rem;
+  min-height: 3.7rem;
+  margin-bottom: 0.7rem;
+  background-image: url(../images/article--comment-icon.svg);
+  background-position: 0.5rem 0;
+  background-repeat: no-repeat;
+  background-size: 2.38rem 2.5rem;
 }
 
 .sub-section--comments > ul {
@@ -1013,6 +1019,21 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   padding-left: 1.5rem;
   margin-top: -1.6rem;
   padding-top: 1.6rem;
+}
+
+.sub-section--comments ul ul ul ul {
+  border-left: none;
+  padding-left: 0;
+}
+
+.sub-section--comments .comment__link--reply {
+  padding-left: 2.6rem;
+  min-height: 3.7rem;
+  background-image: url(../images/article--comment-outline-icon.svg);
+  background-position: 0.5rem 0;
+  background-repeat: no-repeat;
+  background-size: 1.7rem 1.7rem;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -2022,6 +2043,7 @@ header.profile .profile__actions a.profile__actions--add2list:before {
 .sub-section--related__title {
   padding-left: 3.6rem;
   min-height: 3.7rem;
+  margin-bottom: 0.7rem;
 }
 
 .sub-section--related__title--discussion {
