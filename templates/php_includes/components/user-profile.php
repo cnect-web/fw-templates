@@ -54,7 +54,7 @@
   
 <div class="newsfeed">
   
-<article class="newsfeed__item newsfeed__item--short newsfeed__item--discussion newsfeed__item--pinned">
+<article class="newsfeed__item newsfeed__item--teaser newsfeed__item--discussion newsfeed__item--pinned">
   <header>
 <h2><a href="#"><?php echo $postTitle; ?></a><span class="newsfeed__item__state sideinfo"> [ pinned ]</span></h2>
 
@@ -76,7 +76,7 @@
   
 </article>
   
-<article class="newsfeed__item newsfeed__item--short newsfeed__item--draft" style="margin-top: -32px;">
+<article class="newsfeed__item newsfeed__item--teaser newsfeed__item--unpublished" style="margin-top: -32px;">
   <header>
 <h2><a href="#"><?php echo $postTitle; ?></a><span class="newsfeed__item__state sideinfo"> [ ! draft ]</span></h2>
 
@@ -98,7 +98,7 @@
 
 </article>
   
-<article class="newsfeed__item newsfeed__item--short newsfeed__item--discussion" style="margin-top: -28px;">
+<article class="newsfeed__item newsfeed__item--teaser newsfeed__item--discussion" style="margin-top: -28px;">
   <header>
 <h2><a href="#"><?php echo $postTitle; ?></a></h2>
 

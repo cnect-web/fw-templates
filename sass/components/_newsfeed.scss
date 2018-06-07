@@ -70,7 +70,7 @@
     border-top: solid 1px $gray-500;
   }
   
-  .newsfeed__item--short {
+  .newsfeed__item--teaser {
     background-image: url(../images/hr--wavy.svg);
     background-repeat: no-repeat;
     background-position: center top;
@@ -96,16 +96,14 @@
       text-shadow: 0 2px 0 scale-lightness($purple, 90%), 0 3px 0 scale-lightness($purple, 90%), 1px 2px 0 scale-lightness($purple, 90%), -1px 2px 0 scale-lightness($purple, 90%);
     }
     
-    &.newsfeed__item--short:first-child{
+    &.newsfeed__item--teaser:first-child{
       background-color: scale-lightness($purple, 90%);
     }
   }
   
-  .newsfeed__item--draft {
+  .newsfeed__item--unpublished {
     
-    //h2, h3, h4, h5, h6, p, li {
-      color: $gray-900;
-    //}
+    color: $gray-900;
 
     background-image: url(../images/hr--wavy.svg), linear-gradient( scale-lightness($red, 90%) 50%, scale-lightness($red, 90%) 50%) ;
     background-repeat: no-repeat, no-repeat;
@@ -116,7 +114,7 @@
       text-shadow: 0 2px 0 scale-lightness($red, 90%), 0 3px 0 scale-lightness($red, 90%), 1px 2px 0 scale-lightness($red, 90%), -1px 2px 0 scale-lightness($red, 90%);
     }
     
-    &.newsfeed__item--short:first-child{
+    &.newsfeed__item--teaser:first-child{
       background-color: scale-lightness($red, 90%);
     }
   }
