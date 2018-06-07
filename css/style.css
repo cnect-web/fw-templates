@@ -1497,6 +1497,10 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   }
 }
 
+*:not(.profile) + .newsfeed {
+  margin: 0 -15px;
+}
+
 .newsfeed {
   background-color: #FFFFFF;
   text-align: left;
@@ -1549,7 +1553,7 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   background-size: 2.38rem 2.5rem;
 }
 
-.newsfeed__item--draft h2 {
+.newsfeed__item--unpublished h2 {
   background-image: url(../images/article--draft-icon.svg);
   background-size: 2.38rem 2.5rem;
 }
