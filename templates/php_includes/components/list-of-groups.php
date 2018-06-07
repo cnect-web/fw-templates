@@ -1,6 +1,6 @@
-<main class="profile profile--group clearfix">
+<main>
 
-  <header>
+  <header class="profile">
     
     <a href="#" class="profile__pic__link"><!-- link to full pic -->
       <img src="tmp_resources/groupPicture01.jpg" class="profile__pic" alt="Green energy in transport logo">

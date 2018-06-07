@@ -1771,14 +1771,14 @@ a.btn:focus, input.btn:focus, button.btn:focus {
 }
 
 .profile-listing {
-  padding: 0 15px;
+  padding: 0 0px;
   margin-top: 30px;
 }
 
 header.profile {
   text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 header.profile ~ .inpage-nav {
