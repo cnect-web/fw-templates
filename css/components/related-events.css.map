@@ -1,0 +1,2 @@
+{"version":3,"sources":["components/related-events.scss"],"names":[],"mappings":"AAAA;EAEI,oBAAmB,EAMpB;EARH;IAKM,iBAAgB;IAChB,kBAAiB,EAClB","file":"related-events.css","sourcesContent":[".related-events {\r\n  h3 {\r\n    margin-bottom: 1rem;\r\n    \r\n    a {\r\n      font-weight: 700;\r\n      font-size: 1.6rem;\r\n    }\r\n  }\r\n}"]
+}

@@ -1,6 +1,8 @@
-*:not(.profile) + .newsfeed {
+.newsfeed:first-child {
   margin: 0 -15px;
 }
+
+
 
 .newsfeed {
   
@@ -15,6 +17,10 @@
     padding-left: 15px;
   padding-right: 15px;
     padding-top: 5.5rem;
+  }
+  
+  .sub-section {
+    border-top: solid 1px $gray-500;
   }
   
   &__item {
@@ -56,6 +62,12 @@
       background-size: 2.38rem 2.5rem; 
     }
   }
+  &__item--ngf-event {
+    h2 {
+      background-image: url(../images/article--event-icon.svg);
+      background-size: 2.38rem 2.5rem; 
+    }
+  }
   &__item--unpublished {
     h2 {
       background-image: url(../images/article--draft-icon.svg);
@@ -70,10 +82,6 @@
     }
   }
   
-  .sub-section {
-    border-top: solid 1px $gray-500;
-  }
-  
   .newsfeed__item--teaser {
     background-image: url(../images/hr--wavy.svg);
     background-repeat: no-repeat;
@@ -81,9 +89,13 @@
     padding: 7.5rem 15px 4rem 15px;
     background-size: 100% 40px;
     
+    margin-top: -30px;
+    
     &:first-child {
       padding-top: 4rem;
       background-image: none !important;
+      
+      margin-top: 0px;
     }
   }
   
