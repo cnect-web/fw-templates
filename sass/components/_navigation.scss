@@ -132,6 +132,10 @@
       width: 100vw;
       margin-left: -15px;
       
+      &:empty {
+        background-image: url(../images/logo-area-bckgrd--md--no-action.svg);
+      }
+      
       .navigation-menu__item {
         display: inline-block;
         padding:0;

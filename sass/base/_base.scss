@@ -17,6 +17,13 @@ body {
   padding: 0;
   line-height: 1.8;
   background-color: adjust-lightness($gray-800, -3%);
+  /*background: adjust-lightness($gray-800, -3%) url(../images/body-bckgrd--md.svg) no-repeat center top;
+  background-size: 100% 80px;*/
+  background-image: url(../images/body-bckgrd--md.svg);
+  background-repeat: no-repeat;
+  background-position: 50% top;
+  background-attachment: fixed;
+  background-size: 100% 80px;
 }
 
 .wf-active body {

@@ -45,6 +45,11 @@
     height: 100vh;
     float: right;
     background-color: $gray-800;
+    background-image: url(../images/body-bckgrd--md.svg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-attachment: fixed;
+    background-size: 100% 80px;
     z-index: 4;
     padding: 60px 15px;
     padding-bottom: 500em;

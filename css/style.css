@@ -18,6 +18,11 @@ body {
   padding: 0;
   line-height: 1.8;
   background-color: #1f1e23;
+  background-image: url(../images/body-bckgrd--md.svg);
+  background-repeat: no-repeat;
+  background-position: 50% top;
+  background-attachment: fixed;
+  background-size: 100% 80px;
 }
 
 .wf-active body {
@@ -1091,6 +1096,11 @@ a.btn:focus, input.btn:focus, button.btn:focus {
     height: 100vh;
     float: right;
     background-color: #26252B;
+    background-image: url(../images/body-bckgrd--md.svg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-attachment: fixed;
+    background-size: 100% 80px;
     z-index: 4;
     padding: 60px 15px;
     padding-bottom: 500em;
@@ -1424,6 +1434,10 @@ a.btn:focus, input.btn:focus, button.btn:focus {
     height: 100px;
     width: 100vw;
     margin-left: -15px;
+  }
+
+  .navigation-menu__list--tools:empty {
+    background-image: url(../images/logo-area-bckgrd--md--no-action.svg);
   }
 
   .navigation-menu__list--tools .navigation-menu__item {

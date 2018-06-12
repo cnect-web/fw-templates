@@ -22,7 +22,7 @@ function includeWithParams($fileName, $variablesArray) {
   
 <div class="general-container">
 <?php include("components/logo-area.php"); ?>
-<?php includeWithParams("components/header.php", array(
+<?php includeWithParams("components/header_empty.php", array(
   'logged'=>array('accountName'=>'Richard Phillips Feynman', 'nbNotifications'=>'7', 'list'=>true, 'accountPicture' => 'tmp_resources/accountPicture.jpg')
 )); ?>
 
