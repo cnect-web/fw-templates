@@ -60,6 +60,13 @@
       position: fixed;
       width: calc(25% - 30px);
       max-width: 270px;
+      
+    }
+    
+    ul {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
     }
   }
 }
