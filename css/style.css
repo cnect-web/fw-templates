@@ -1003,8 +1003,20 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   margin: 0;
 }
 
+.sub-section--comments ul.links.inline {
+  padding-bottom: 15px;
+}
+
+.sub-section--comments ul.links.inline li {
+  display: inline-block;
+}
+
 .sub-section--comments li {
   list-style: none;
+}
+
+.sub-section--comments li .profile-shortinfo {
+  margin-top: 15px;
 }
 
 .sub-section--comments .profile-shortinfo {
@@ -1035,10 +1047,30 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   padding-left: 0;
 }
 
-.sub-section--comments .comment__link--reply {
+.sub-section--comments .comment-reply a {
   padding-left: 2.6rem;
   min-height: 3.7rem;
   background-image: url(../images/article--comment-outline-icon.svg);
+  background-position: 0.5rem 0;
+  background-repeat: no-repeat;
+  background-size: 1.7rem 1.7rem;
+  text-decoration: none;
+}
+
+.sub-section--comments .comment-edit a {
+  padding-left: 2.6rem;
+  min-height: 3.7rem;
+  background-image: url(../images/article--edit-outline-icon.svg);
+  background-position: 0.5rem 0;
+  background-repeat: no-repeat;
+  background-size: 1.7rem 1.7rem;
+  text-decoration: none;
+}
+
+.sub-section--comments .comment-delete a {
+  padding-left: 2.6rem;
+  min-height: 3.7rem;
+  background-image: url(../images/article--delete-outline-icon.svg);
   background-position: 0.5rem 0;
   background-repeat: no-repeat;
   background-size: 1.7rem 1.7rem;

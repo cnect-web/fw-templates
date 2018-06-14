@@ -20,7 +20,11 @@
     
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque dolor pulvinar diam euismod, a mattis massa tempus. Nunc risus magna, sollicitudin a bibendum a, placerat eu neque. Curabitur ullamcorper, nisi quis semper rhoncus, sem tellus ultricies nibh, pellentesque rhoncus arcu elit pretium risus.</p>
     
-     <p><a href="" class="comment__link--reply">reply</a></p>
+     <ul class="links inline">
+  <li class="comment-delete"><a href="/comment/1/delete" hreflang="en">Delete</a></li>
+  <li class="comment-edit"><a href="/comment/1/edit" hreflang="en">Edit</a></li>
+  <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
+</ul>
     
      <ul>
        <li>
@@ -40,7 +44,11 @@
     
      <p>Aliquam justo felis, euismod quis urna eget, elementum aliquam massa. Pellentesque condimentum nisl dui, eget cursus lorem pulvinar id. </p>
          
-     <p><a href="" class="comment__link--reply">reply</a></p>
+     <ul class="links inline">
+  <li class="comment-delete"><a href="/comment/1/delete" hreflang="en">Delete</a></li>
+  <li class="comment-edit"><a href="/comment/1/edit" hreflang="en">Edit</a></li>
+  <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
+</ul>
          
   </li>
      </ul>
@@ -65,7 +73,11 @@
     
      <p>Nullam suscipit porttitor sem quis tristique. Etiam eu eros quis sapien efficitur molestie. Suspendisse sit amet orci nec nulla tincidunt tincidunt eu rhoncus ex. Phasellus tristique orci sit amet dui accumsan cursus. Nulla placerat urna id mauris tempus, vel egestas libero vehicula.</p>
     
-     <p><a href="" class="comment__link--reply">reply</a></p>
+     <ul class="links inline">
+  <li class="comment-delete"><a href="/comment/1/delete" hreflang="en">Delete</a></li>
+  <li class="comment-edit"><a href="/comment/1/edit" hreflang="en">Edit</a></li>
+  <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
+</ul>
     
       <ul>
        <li>
@@ -85,7 +97,11 @@
     
      <p>Aliquam justo felis, euismod quis urna eget, elementum aliquam massa. Pellentesque condimentum nisl dui, eget cursus lorem pulvinar id. </p>
          
-     <p><a href="" class="comment__link--reply">reply</a></p>
+     <ul class="links inline">
+  <li class="comment-delete"><a href="/comment/1/delete" hreflang="en">Delete</a></li>
+  <li class="comment-edit"><a href="/comment/1/edit" hreflang="en">Edit</a></li>
+  <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
+</ul>
          
          
           <ul>
@@ -106,7 +122,11 @@
     
      <p>Aliquam justo felis, euismod quis urna eget, elementum aliquam massa. Pellentesque condimentum nisl dui, eget cursus lorem pulvinar id. </p>
          
-     <p><a href="" class="comment__link--reply">reply</a></p>
+     <ul class="links inline">
+  <li class="comment-delete"><a href="/comment/1/delete" hreflang="en">Delete</a></li>
+  <li class="comment-edit"><a href="/comment/1/edit" hreflang="en">Edit</a></li>
+  <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
+</ul>
          
          
          <ul>
@@ -127,7 +147,11 @@
     
      <p>Aliquam justo felis, euismod quis urna eget, elementum aliquam massa. Pellentesque condimentum nisl dui, eget cursus lorem pulvinar id. </p>
          
-     <p><a href="" class="comment__link--reply">reply</a></p>
+     <ul class="links inline">
+  <li class="comment-delete"><a href="/comment/1/delete" hreflang="en">Delete</a></li>
+  <li class="comment-edit"><a href="/comment/1/edit" hreflang="en">Edit</a></li>
+  <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
+</ul>
          
   </li>
      </ul>
@@ -161,7 +185,11 @@
     
     <p>Duis nec fermentum nisl. In eleifend leo tempor ex lacinia, at venenatis dui ultrices.</p>
     
-    <p><a href="" class="comment__link--reply">reply</a></p>
+    <ul class="links inline">
+      <li class="comment-delete"><a href="/comment/1/delete" hreflang="en">Delete</a></li>
+      <li class="comment-edit"><a href="/comment/1/edit" hreflang="en">Edit</a></li>
+      <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
+    </ul>
   </li>
 </ul>
   
