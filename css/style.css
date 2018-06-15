@@ -2244,6 +2244,35 @@ a.share--email {
   }
 }
 
+.media--type-file {
+  margin-top: 16px;
+}
+
+.field--type-file .file {
+  list-style: none;
+  background: transparent no-repeat left top;
+  background-size: 32px 38px;
+  padding-left: 45px;
+  display: block;
+  min-height: 38px;
+}
+
+.field--type-file .file.file--mime-application-pdf {
+  background-image: url(../images/file--pdf.jpg);
+}
+
+.field--type-file .file.file--mime-application-txt, .field--type-file .file.file--mime-application-rtf, .field--type-file .file.file--mime-application-doc, .field--type-file .file.file--mime-application-docx, .field--type-file .file.file--mime-application-odf, .field--type-file .file.file--mime-application-odg, .field--type-file .file.file--mime-application-odp, .field--type-file .file.file--mime-application-ods, .field--type-file .file.file--mime-application-odt, .field--type-file .file.file--mime-application-fodt, .field--type-file .file.file--mime-application-fodg, .field--type-file .file.file--mime-application-apges {
+  background-image: url(../images/file--txt.jpg);
+}
+
+.field--type-file .file.file--mime-application-ppt, .field--type-file .file.file--mime-application-pptx, .field--type-file .file.file--mime-application-key {
+  background-image: url(../images/file--ppt.ppt);
+}
+
+.field--type-file .file.file--mime-application-xls, .field--type-file .file.file--mime-application-xlsx, .field--type-file .file.file--mime-application-numbers {
+  background-image: url(../images/file--xls.jpg);
+}
+
 .related-events h3 {
   margin-bottom: 1rem;
 }

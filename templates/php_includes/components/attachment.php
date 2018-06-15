@@ -8,7 +8,7 @@
   }
   ?>
 
-  <ul class="list list--file list--attachment">
+  <!-- <ul class="list list--file list--attachment">
     <li class="list__item list__item--file list__item--pdf">
         
       <p class="file__info">
@@ -22,5 +22,15 @@
       </p>
          
     </li>
-  </ul>
+  </ul> -->
+  
+  
+  <article data-quickedit-entity-id="media/15" class="contextual-region media media--type-file media--view-mode-default" data-quickedit-entity-instance-id="0">
+   <div data-quickedit-field-id="media/15/field_media_file/en/default" class="field field--name-field-media-file field--type-file field--label-visually_hidden quickedit-field">
+      <div class="field__label visually-hidden">File</div>
+      <div class="field__item"><span class="file file--mime-application-pdf file--application-pdf"> <a href="http://ngf.dev.europa.eu/sites/default/files/2018-06/151012_TimeSheet_2015%20NEYENS%20CS2771_september_signed.pdf" type="application/pdf; length=39076">151012_TimeSheet_2015 NEYENS CS2771_september_signed.pdf</a></span></div>
+   </div>
+</article>
+  
+  
 </div>

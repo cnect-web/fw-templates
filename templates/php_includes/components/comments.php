@@ -196,7 +196,7 @@
 <form>
 
   <div class="form__block form__block--text">
-  <label for="field-ID-1" >
+  <label for="field-ID-1">
     Add a comment</label>
     <textarea name="field-name-1" id="field-ID-1" class="form__input form__input--text" placeholder=""></textarea>
   </div>
