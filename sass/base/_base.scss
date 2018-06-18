@@ -31,6 +31,10 @@ body {
   font-weight: $text__font-wight;
 }
 
+p, h2, h3, h4, h5, h6, li {
+    max-width: 32em;
+  }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $headings__font;
   font-weight: bold;

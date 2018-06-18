@@ -3,7 +3,7 @@
 <div>
 <div>
   
-<div class="newsfeed">
+<div>
   
 <article class="newsfeed__item newsfeed__item--teaser newsfeed__item--discussion newsfeed__item--pinned">
   <header>

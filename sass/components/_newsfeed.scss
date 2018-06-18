@@ -2,28 +2,12 @@
   margin: 0 -15px;
 }
 
-
-
-.newsfeed {
-  
-  background-color: $white;
-  text-align: left;
-  
-  p, h2, h3, h4, h5, h6, li {
-    max-width: 32em;
-  }
-  
-  article {
-    padding-left: 15px;
-  padding-right: 15px;
-    padding-top: 5.5rem;
-  }
-  
-  .sub-section {
+.sub-section {
     border-top: solid 1px $gray-500;
+  margin-bottom: 16px;
   }
   
-  &__item {
+.newsfeed__item {
     h2 {
       padding-left: 32px;
       background: transparent left top no-repeat;
@@ -56,25 +40,25 @@
     }
   }
   
-  &__item--ngf-discussion {
+  .newsfeed__item--ngf-discussion {
     h2 {
       background-image: url(../images/article--discussion-icon.svg);
       background-size: 2.38rem 2.5rem; 
     }
   }
-  &__item--ngf-event {
+  .newsfeed__item--ngf-event {
     h2 {
       background-image: url(../images/article--event-icon.svg);
       background-size: 2.38rem 2.5rem; 
     }
   }
-  &__item--unpublished {
+  .newsfeed__item--unpublished {
     h2 {
       background-image: url(../images/article--draft-icon.svg);
       background-size: 2.38rem 2.5rem; 
     }
   }
-  &__item--pinned {
+  .newsfeed__item--pinned {
     h2 {
       background-image: url(../images/article--pinned-icon.svg);
       background-size: 2.38rem 2.5rem; 
@@ -134,4 +118,3 @@
       background-color: scale-lightness($red, 90%);
     }
   }
-}

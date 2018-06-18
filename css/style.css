@@ -30,6 +30,10 @@ body {
   font-weight: 500;
 }
 
+p, h2, h3, h4, h5, h6, li {
+  max-width: 32em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway";
   font-weight: bold;
@@ -120,7 +124,7 @@ main *:not(img):not(svg)::selection {
 }
 
 .form-wrapper {
-  padding: 0px 15px 75px 15px;
+  padding: inherit;
 }
 
 form__block, .form__block {
@@ -1587,23 +1591,9 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   margin: 0 -15px;
 }
 
-.newsfeed {
-  background-color: #FFFFFF;
-  text-align: left;
-}
-
-.newsfeed p, .newsfeed h2, .newsfeed h3, .newsfeed h4, .newsfeed h5, .newsfeed h6, .newsfeed li {
-  max-width: 32em;
-}
-
-.newsfeed article {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 5.5rem;
-}
-
-.newsfeed .sub-section {
+.sub-section {
   border-top: solid 1px #a6a7ab;
+  margin-bottom: 16px;
 }
 
 .newsfeed__item h2 {
@@ -1659,7 +1649,7 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   padding-left: 25px;
 }
 
-.newsfeed .newsfeed__item--teaser {
+.newsfeed__item--teaser {
   background-image: url(../images/hr--wavy.svg);
   background-repeat: no-repeat;
   background-position: center top;
@@ -1668,13 +1658,13 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   margin-top: -30px;
 }
 
-.newsfeed .newsfeed__item--teaser:first-child {
+.newsfeed__item--teaser:first-child {
   padding-top: 4rem;
   background-image: none !important;
   margin-top: 0px;
 }
 
-.newsfeed .newsfeed__item--pinned {
+.newsfeed__item--pinned {
   color: #05111E;
   background-image: url(../images/hr--wavy.svg), -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f0e7f7), color-stop(50%, #f0e7f7));
   background-image: url(../images/hr--wavy.svg), linear-gradient(#f0e7f7 50%, #f0e7f7 50%);
@@ -1683,15 +1673,15 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   background-size: 100% 40px, 100% calc(100% - 28px);
 }
 
-.newsfeed .newsfeed__item--pinned a, .newsfeed .newsfeed__item--pinned a:hover, .newsfeed .newsfeed__item--pinned h2 a, .newsfeed .newsfeed__item--pinned h2 a:hover {
+.newsfeed__item--pinned a, .newsfeed__item--pinned a:hover, .newsfeed__item--pinned h2 a, .newsfeed__item--pinned h2 a:hover {
   text-shadow: 0 2px 0 #f0e7f7, 0 3px 0 #f0e7f7, 1px 2px 0 #f0e7f7, -1px 2px 0 #f0e7f7;
 }
 
-.newsfeed .newsfeed__item--pinned.newsfeed__item--teaser:first-child {
+.newsfeed__item--pinned.newsfeed__item--teaser:first-child {
   background-color: #f0e7f7;
 }
 
-.newsfeed .newsfeed__item--unpublished {
+.newsfeed__item--unpublished {
   color: #05111E;
   background-image: url(../images/hr--wavy.svg), -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffebeb), color-stop(50%, #ffebeb));
   background-image: url(../images/hr--wavy.svg), linear-gradient(#ffebeb 50%, #ffebeb 50%);
@@ -1700,11 +1690,11 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   background-size: 100% 40px, 100% calc(100% - 28px);
 }
 
-.newsfeed .newsfeed__item--unpublished > * a, .newsfeed .newsfeed__item--unpublished > * a:hover, .newsfeed .newsfeed__item--unpublished h2 a, .newsfeed .newsfeed__item--unpublished h2 a:hover {
+.newsfeed__item--unpublished > * a, .newsfeed__item--unpublished > * a:hover, .newsfeed__item--unpublished h2 a, .newsfeed__item--unpublished h2 a:hover {
   text-shadow: 0 2px 0 #ffebeb, 0 3px 0 #ffebeb, 1px 2px 0 #ffebeb, -1px 2px 0 #ffebeb;
 }
 
-.newsfeed .newsfeed__item--unpublished.newsfeed__item--teaser:first-child {
+.newsfeed__item--unpublished.newsfeed__item--teaser:first-child {
   background-color: #ffebeb;
 }
 

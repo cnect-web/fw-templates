@@ -1,5 +1,5 @@
 <main>
-<div class="newsfeed">
+<div>
 <article class="newsfeed__item newsfeed__item--detailed newsfeed__item--ngf-event">
   <header>
 <h2><a href="#"><?php echo $title; ?></a></h2>
