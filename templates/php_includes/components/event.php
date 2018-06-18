@@ -10,10 +10,16 @@
     <h3><i class="fas fa-calendar-alt"></i> Date and time</h3>
     <p>From the 2nd July to the 6th July</p>
       
-    <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
-    <p>ISCTE - INSTITUTO UNIVERSITÁRIO DE LISBOA<br>
-Av.ª das Forças Armadas<br>
-1649-026 Lisboa</p>  
+<div class="event-location">
+  <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+  <h4>Diependal sporthal</h4>
+  <p class="address" translate="no">
+    <span class="address-line1">Lindeboomstraat 19</span><br>
+    <span class="postal-code">3080</span>
+    <span class="locality">Tervuren</span><br>
+    <span class="country">Belgium</span>
+  </p>
+</div> 
   
   <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-9.37236785888672%2C38.537424323873275%2C-8.91918182373047%2C38.78727491420832&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/38.6625/-9.1458" target="_blank">display bigger map</a></small>
   

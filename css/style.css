@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h4, h5, h6 {
-  color: #88898c;
+  opacity: 0.9;
 }
 
 p:last-child {
@@ -746,6 +746,10 @@ li.tag {
   color: #88898c;
   background-color: #FFFFFF;
   z-index: 0;
+}
+
+.no-margins {
+  margin: 0 !important;
 }
 
 .extra-space--top {
