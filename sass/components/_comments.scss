@@ -10,7 +10,7 @@
     background-size: 2.38rem 2.5rem;
   }
   
-  article.comment:first-child {
+  /*article.comment:first-child {
     
     border-left: solid 2px #CCC;
     padding-left: 1.5rem;
@@ -20,23 +20,25 @@
     border-left: none;
     padding-left: 0rem;
   }
+  */
   
-  .indented > .indented {
-    margin-left: 1.5rem;
+  
+  .indented  {
+    //margin-left: 1.5rem;
+    border-left: solid 2px #CCC;
+    padding-left: 1.5rem;
   }
   
   .indented > .indented > .indented > .indented {
-    margin-left: 1.5rem;
-    
-    article.comment:first-child {
-      border-left: none;
-      padding-left: 0rem;
-    }
+    margin-left: 0rem;
+    border-left: none;
+    padding-left: 0rem;
+
   }
   
   
   
-  /*> ul {
+  > ul {
     padding: 0;
     margin: 0;
   } 
@@ -73,18 +75,6 @@
       }
     }
   }
-  
-  ul ul {
-    border-left: solid 2px #CCC;
-    padding-left: 1.5rem;
-    margin-top: -1.6rem;
-    padding-top: 1.6rem;
-  }
-  
-  ul ul ul ul {
-    border-left: none;
-    padding-left: 0;
-  }*/
   
   .comment-reply a {
     padding-left: 2.6rem;

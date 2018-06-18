@@ -1009,27 +1009,52 @@ a.btn:focus, input.btn:focus, button.btn:focus {
   background-size: 2.38rem 2.5rem;
 }
 
-.sub-section--comments article.comment:first-child {
+.sub-section--comments .indented {
   border-left: solid 2px #CCC;
   padding-left: 1.5rem;
 }
 
-.sub-section--comments article.comment {
-  border-left: none;
-  padding-left: 0rem;
-}
-
-.sub-section--comments .indented > .indented {
-  margin-left: 1.5rem;
-}
-
 .sub-section--comments .indented > .indented > .indented > .indented {
-  margin-left: 1.5rem;
-}
-
-.sub-section--comments .indented > .indented > .indented > .indented article.comment:first-child {
+  margin-left: 0rem;
   border-left: none;
   padding-left: 0rem;
+}
+
+.sub-section--comments > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sub-section--comments ul.links.inline {
+  padding-bottom: 15px;
+}
+
+.sub-section--comments ul.links.inline li {
+  display: inline-block;
+}
+
+.sub-section--comments li {
+  list-style: none;
+}
+
+.sub-section--comments li .profile-shortinfo {
+  margin-top: 15px;
+}
+
+.sub-section--comments .profile-shortinfo {
+  margin-bottom: -2rem;
+}
+
+.sub-section--comments .profile-shortinfo ~ p {
+  border-left: solid 2px #CCC;
+  padding-left: 1.5rem;
+}
+
+.sub-section--comments .profile-shortinfo ~ p + p {
+  border-left: solid 2px #CCC;
+  padding-left: 1.5rem;
+  margin-top: -1.6rem;
+  padding-top: 1.6rem;
 }
 
 .sub-section--comments .comment-reply a {

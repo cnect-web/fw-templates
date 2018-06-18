@@ -14,6 +14,26 @@
      <article  class="comment"> 
        blalbla
      </article>
+     <div class="indented">
+     <article  class="comment"> 
+       blalbla
+     </article>
+       <div class="indented">
+     <article  class="comment"> 
+       blalbla
+     </article>
+         <div class="indented">
+     <article  class="comment"> 
+       blalbla
+     </article>
+           <div class="indented">
+     <article  class="comment"> 
+       blalbla
+     </article>
+   </div>
+   </div>
+   </div>
+   </div>
    </div>
   </div>  
 
