@@ -10,7 +10,33 @@
     background-size: 2.38rem 2.5rem;
   }
   
-  > ul {
+  article.comment:first-child {
+    
+    border-left: solid 2px #CCC;
+    padding-left: 1.5rem;
+  }
+  
+  article.comment {
+    border-left: none;
+    padding-left: 0rem;
+  }
+  
+  .indented > .indented {
+    margin-left: 1.5rem;
+  }
+  
+  .indented > .indented > .indented > .indented {
+    margin-left: 1.5rem;
+    
+    article.comment:first-child {
+      border-left: none;
+      padding-left: 0rem;
+    }
+  }
+  
+  
+  
+  /*> ul {
     padding: 0;
     margin: 0;
   } 
@@ -58,7 +84,7 @@
   ul ul ul ul {
     border-left: none;
     padding-left: 0;
-  }
+  }*/
   
   .comment-reply a {
     padding-left: 2.6rem;

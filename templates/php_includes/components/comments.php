@@ -1,8 +1,24 @@
-<div class="sub-section sub-section--comments">
 
-<h3 class="sub-section__title sub-section--related__title sub-section--comments__title">2 comments</h3>
+<div class="sub-section sub-section--comments sub-section--field-comments">
+  
+  <h3 class="sub-section__title sub-section--related__title sub-section--comments__title">2 comments</h3>
+  
+  <article class="comment">
+    Comment A
+  </article>
+  <div class="indented">
+   <article  class="comment">
+     Reply to comment A
+   </article>
+   <div class="indented">
+     <article  class="comment"> 
+       blalbla
+     </article>
+   </div>
+  </div>  
 
-<ul>
+  
+<!--ul>
   <li>
     
     <?php
@@ -191,7 +207,7 @@
       <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
     </ul>
   </li>
-</ul>
+</ul-->
   
 <form>
 
