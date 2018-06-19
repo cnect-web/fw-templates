@@ -1,6 +1,11 @@
 .form-wrapper {
   padding: inherit;  
 }
+
+.wf-active input, .wf-active textarea {
+  font-family: $body__font;
+}
+
 form, .form {
   
   &__block {
@@ -29,6 +34,7 @@ form, .form {
     border: solid 2px $gray-500;
     box-shadow:   inset 0 0 10px rgba(#000, 0.1);
     transition: border-color 0.2s;
+    font-family: $body__font;
     
     &:focus:hover, &:focus {
       outline: none;
@@ -313,6 +319,46 @@ form, .form {
           overflow: hidden;
           vertical-align: top;
       }
+
+/* chosen */
+
+.chosen-container.error .chosen-single,
+.chosen-container.error .chosen-single span {
+  line-height: inherit;
+}
+
+.chosen-container-single .chosen-search {
+  display: block;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  height: auto;
+}
+
+.chosen-container {
+  display: block !important;
+}
+.container-inline div.chosen-container div {
+  display: block;
+}
+
+/* Error handling. */
+.chosen-container.error .chosen-choices,
+.chosen-container.error .chosen-single {
+  border: 2px solid red;
+}
+
+.filter-wrapper {
+  overflow: visible !important;
+}
+
+.filter-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
 
 @media (min-width: 578px) {
   .form .form__block--twocol {
