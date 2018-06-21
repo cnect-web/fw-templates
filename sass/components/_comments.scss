@@ -10,21 +10,9 @@
     background-size: 2.38rem 2.5rem;
   }
   
-  /*article.comment:first-child {
-    
-    border-left: solid 2px #CCC;
-    padding-left: 1.5rem;
-  }
-  
-  article.comment {
-    border-left: none;
-    padding-left: 0rem;
-  }
-  */
-  
   
   .indented  {
-    //margin-left: 1.5rem;
+    margin-left: 0rem !important;
     border-left: solid 2px #CCC;
     padding-left: 1.5rem;
   }
