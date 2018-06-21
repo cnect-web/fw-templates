@@ -1,3 +1,38 @@
+.general-footer--card {
+      position: relative !important;
+      bottom:auto;
+      z-index: auto;
+      width: 100%;
+      
+      ul.menu { 
+      padding: 0;
+      margin: 1.5rem;
+      margin-top: 3rem;
+        
+      li {
+        display: inline-block;
+        
+        &::after {
+          content: " | ";
+        }
+        
+        a {
+          color: $gray-500;
+          text-shadow: 0 2px 0 $white, 0 3px 0 $white, 1px 2px 0 $white, -1px 2px 0 $white;
+          box-shadow: 0 1px 0 0 $purple;
+          transition: all .2s ease;
+
+          &:hover {
+            color: $darkblue;
+            box-shadow: 0 1px 0 0 $purple;
+            transition: all .2s ease;
+          }
+          
+        }
+      }
+    }
+  }
+
 @media (min-width: 768px) {
   .general-footer {
     position: fixed !important;
@@ -5,9 +40,10 @@
     z-index: 500;
     width: 33%;
     
-    ul { 
+    ul.menu { 
       padding: 0;
       margin: 1.5rem;
+      margin-top: 3rem;
       li {
         display: inline-block;
       
@@ -30,6 +66,41 @@
         }
       }
     }
+    
+    &--card {
+      position: relative !important;
+      bottom:auto;
+      z-index: auto;
+      width: 100%;
+      
+      ul.menu { 
+      padding: 0;
+      margin: 1.5rem;
+      margin-top: 3rem;
+        
+      li {
+        display: inline-block;
+        
+        &::after {
+          content: " | ";
+        }
+        
+        a {
+          color: $gray-500;
+          text-shadow: 0 2px 0 $white, 0 3px 0 $white, 1px 2px 0 $white, -1px 2px 0 $white;
+          box-shadow: 0 1px 0 0 $purple;
+          transition: all .2s ease;
+
+          &:hover {
+            color: $darkblue;
+            box-shadow: 0 1px 0 0 $purple;
+            transition: all .2s ease;
+          }
+          
+        }
+      }
+    }
+  }
   }
 }
 
@@ -68,5 +139,30 @@
       width: 100%;
       bottom: 0;
     }
+    
+    
+    &--card {
+      background-color: transparent;
+      bottom: auto;
+      z-index: auto;
+      width: 100%;
+      height: auto;
+      padding: 0;
+    margin-bottom: 0;
+      
+      > * {
+        position: auto;
+        width: 100%;
+        max-width: 100%;
+      }
+      
+      ul.menu {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+      }
+      
+    }
+    
   }
 }
