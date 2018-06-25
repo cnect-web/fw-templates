@@ -9,7 +9,7 @@ function includeWithParams($fileName, $variablesArray) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Discussion ::: FunkyWave Php splitted Theme</title>
+  <title>Welcome on Futurium Lab!</title>
   
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="../../css/style.css">
@@ -22,8 +22,8 @@ function includeWithParams($fileName, $variablesArray) {
   
 <div class="general-container--card clearfix background--talk">  
   
-<header>
-  <img class="logo" alt="Futurium Lab Logo" src="../../images/logo_futurium_lab.svg" width="">
+<header class="logo-wrapper--index">
+  <img class="logo-cover" alt="Futurium Lab Logo" src="../../images/logo_futurium_lab.svg" width="">
 </header>
 
   <main>
@@ -42,22 +42,34 @@ function includeWithParams($fileName, $variablesArray) {
   <label for="field-ID-2" required>Password <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
   <input type="password" name="field-name-2" id="field-ID-2" class="form__input form__input--text" placeholder="" required>
 </div>
-      
-      <div class="form__block form__block--onecol form__block--submit btn-list--right">  
+  <div class="clearfix">
+      <div class="btn-list--left btn-list--byside">
+      <p><a href="#">Forgot password?</a></p>
+      </div>
+  <div class="form__block form__block--onecol form__block--submit btn-list--right btn-list--byside">  
   <input type="submit" value="submit" class="btn btn--green">
 </div>
+    </div>
       
     </form>
 
   <h3>Not registred yet ?</h3>
     
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper faucibus ipsum, quis lobortis justo. Donec blandit nunc sed elementum euismod. Nulla venenatis nec odio vitae tincidunt. Donec et enim non orci posuere ultrices quis sit amet mauris. Nunc blandit sapien quis tincidunt imperdiet. </p>
+  <p>Have an idea for Europe?
+Futuriumlab is an open platform dedicated to Europeans discussing EU matters. Please join and start discussions on this platform.
+    Any topic relevant for European Union is welcome to be addressed here.</p>
+<p>The name “Futurium” refers to the times ahead us. The more we engage, the more we have impact on our future.
+Join us at Futuriumlab!</p>
     
   <div class="btn-list--center">
-    <a href="#" class="btn btn--blue btn--large">Register</a>
+    <a href="registration_form_01.php" class="btn btn--blue btn--large">Register</a>
     </div>
-    
-       
+<div class="extra-space--top">    
+ <p class="text-center">Do you want to catch a glimpse of what's really going on here?</p>   
+      <div class="btn-list--center">
+    <a href="base-public-feed.php" class="btn btn--grey btn--large">Check the public feed</a>
+    </div>
+     </div>  
     </div>
     
   </main>

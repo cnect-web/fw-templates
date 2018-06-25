@@ -18,6 +18,16 @@
 .btn-list--right {
   text-align: right; 
 }
+.btn-list--left {
+  text-align: left; 
+}
+.btn-list--byside.btn-list--left {
+  float: left
+}
+.btn-list--byside.btn-list--right {
+  float: right;
+}
+
 
 .btn-list--center {
   text-align: center; 
@@ -32,6 +42,7 @@
 
 .btn.btn--large {
   width: 100%;
+  max-width: 32em;
   padding: 0.3rem 1rem;
   font-size: 1.8rem;
 }
@@ -52,7 +63,7 @@ a.btn, input.btn, button.btn {
    border: none;
    cursor: pointer;
 
-   &:last-child {
+   &:not(.btn--large):last-child {
       margin-right: 0px;
    }
 

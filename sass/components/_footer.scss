@@ -16,6 +16,10 @@
           content: " | ";
         }
         
+        &:last-child::after {
+          content: "";
+        }
+        
         a {
           color: $gray-500;
           text-shadow: 0 2px 0 $white, 0 3px 0 $white, 1px 2px 0 $white, -1px 2px 0 $white;

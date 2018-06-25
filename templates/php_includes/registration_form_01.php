@@ -15,7 +15,7 @@ function includeWithParams($fileName, $variablesArray) {
   <link rel="stylesheet" type="text/css" href="../../css/style.css">
 </head>
   
-<body>
+<body class="not-signed">
 <a href="#main-content" class="visually-hidden focusable skip-link">
   Skip to main content
 </a>  
@@ -23,8 +23,7 @@ function includeWithParams($fileName, $variablesArray) {
 <div class="general-container">
 <?php include("components/logo-area.php"); ?>
 <?php includeWithParams("components/header_empty.php", array(
-  'logged'=>array('accountName'=>'Richard Phillips Feynman', 'nbNotifications'=>'7', 'list'=>true, 'accountPicture' => 'tmp_resources/accountPicture.jpg')
-)); ?>
+  'logged'=>false, 'ctaJoin'=>false, 'ctaSignIn'=>true )); ?>
 
 <main class="form-wrapper">
   

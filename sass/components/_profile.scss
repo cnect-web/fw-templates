@@ -129,6 +129,12 @@ header.profile {
     padding: 0 1rem;
   }
   
+  .profile__location li:last-child::after {
+    display: inline-block;
+    content: "";
+    padding: 0 0rem;
+  }
+  
   .profile__meta li, .profile__location li {
     //margin-top: 0.6rem;
     font-weight: bold;

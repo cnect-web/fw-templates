@@ -21,8 +21,8 @@
   <div class="account-info__profile">
     <a href="#"><i class="icon icon--cog"></i><span class="no-display--sm">profile settings</span></a>
   </div>
-  <div class="account-info__notifications">
+  <!--<div class="account-info__notifications">
     <a href="#" class="account-info__notifications-nr"><span class="sr-only">notifications :</span>99</a>
-  </div>
+  </div>-->
   
 </div>

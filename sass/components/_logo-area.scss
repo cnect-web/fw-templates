@@ -14,6 +14,28 @@ $logo-area__background-image--lg: $logo-area__background-image !default;
   width: 100vw;
 }
 
+img.logo {
+  height: auto;
+}
+
+a.logo__link {
+  text-decoration: none;
+  text-shadow: none;
+  box-shadow: none;
+  padding: 15px;
+  display: block;
+  width: 70vw;
+  max-width: 300px; 
+  
+  /*&:hover {
+    text-decoration: none;
+    text-shadow: none;
+    box-shadow: none;
+    background-color: rgba(#301647, 0.60);
+    box-shadow: 0px 0px 22px 5px rgba(#301647, 0.75);
+  }*/
+}
+
 .logo-title {
   font-weight: $logo__font-weight;
   color: $logo__color; 
@@ -29,6 +51,15 @@ $logo-area__background-image--lg: $logo-area__background-image !default;
     top:0;
     // background image defined in the navigation for z-index issue
     background-image: none;
+    width: 33%;
+    padding: 15px;
+  }
+  
+  a.logo__link {
+    padding: 0px;
+    display: inline;
+    width: auto;
+    max-width: auto;
   }
   
 }
@@ -37,6 +68,8 @@ $logo-area__background-image--lg: $logo-area__background-image !default;
 @media (min-width: 992px) {
   .logo-area {
     width: 25%;
+    max-width: 300px;
+    padding: 15px;
   }
 }
 

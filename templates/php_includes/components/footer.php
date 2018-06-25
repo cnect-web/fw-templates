@@ -1,5 +1,5 @@
 <footer class="no-display--sm general-footer">
- <ul>
+ <ul class="menu">
    <li><a href="">About</a></li>
    <li><a href="">Legal notice</a></li>
    <li><a href="">Cookies</a></li>
