@@ -15,7 +15,7 @@ function includeWithParams($fileName, $variablesArray) {
   <link rel="stylesheet" type="text/css" href="../../css/style.css">
 </head>
   
-<body>
+<body class="not-signed">
 <a href="#main-content" class="visually-hidden focusable skip-link">
   Skip to main content
 </a>  

@@ -2350,6 +2350,10 @@ a.logo__link {
   box-shadow: none;
 }
 
+.not-signed .navigation-menu, .not-signed .new-item {
+  display: none;
+}
+
 @media (max-width: 767.98px) and (orientation: landscape) {
   .navigation-menu {
     background-position: center bottom;
@@ -2363,6 +2367,10 @@ a.logo__link {
 }
 
 @media (min-width: 768px) {
+  .not-signed .navigation-menu {
+    display: block;
+  }
+
   .navigation-menu {
     position: relative;
     bottom: auto;
