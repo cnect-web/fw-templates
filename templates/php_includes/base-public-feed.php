@@ -9,7 +9,7 @@ function includeWithParams($fileName, $variablesArray) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Christina Mattews - NGF</title>
+  <title>Public feed :: FuturiumLab</title>
   
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="../../css/style.css">
@@ -23,10 +23,18 @@ function includeWithParams($fileName, $variablesArray) {
 <div class="general-container">
 <?php include("components/logo-area.php"); ?>
 <?php includeWithParams("components/header_empty.php", array(
-  'logged'=>array('accountName'=>'Richard Phillips Feynman', 'nbNotifications'=>'7', 'list'=>true, 'accountPicture' => 'tmp_resources/accountPicture.jpg')
-)); ?>
+  'logged'=>false, 'ctaJoin'=>true, 'ctaSignIn'=>true )); ?>
 
-<?php /* includeWithParams("components/feed.php", array(
+
+  
+<main>
+  
+  <div>
+  <h1>Futurium Lab public feed</h1>
+    <p>Recently on Futurium Lab...</p>
+  </div>
+  
+<?php includeWithParams("components/newsfeed.php", array(
   'title'=> 'Christina Mattews',
   'postTitle'=> 'Lorem ipsum sit dolor amet',
   'tags' => array("a" => "Lorem", "b" => "ipsum sit dorlor", "c" => "Etiam", "d" => "Nulla tindunt saius"),
@@ -37,7 +45,11 @@ function includeWithParams($fileName, $variablesArray) {
     "authorGuid" => 15,
     "postTime" => "18 mins ago"
   )
-)); */ ?> 
+)); ?>   
+  
+</main> 
+  
+  
   
 <?php include("components/footer.php"); ?>
 </div>  

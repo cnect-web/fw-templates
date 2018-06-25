@@ -9,14 +9,14 @@ if ($logged) {
     echo "<div class='cta--wrapper'>";
   
     if($ctaJoin){
-      echo '<a class="cta--sidebar cta--join">
+      echo '<a href="registration_form_01.php" class="cta--sidebar cta--join">
         <h3 class="no-display--sm">New to FuturiumLab?</h3> 
         <p>Sign up now <span class="no-display--sm">to get your own personalised newsfeed!</span></p>
       </a>';
     }
 
     if($ctaSignIn){
-      echo '<a class="cta--sidebar cta--signin">
+      echo '<a class="cta--sidebar cta--signin" href="index.php">
       <h3 class="no-display--sm">Have an account?</h3>
       <p>Log in</p>
 
