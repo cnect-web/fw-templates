@@ -1,0 +1,1 @@
+$(document).ready(function(){$("a.account-info__wrapper").click(function(n){n.preventDefault(),$(".account-info__dropdown").toggle(200)})});

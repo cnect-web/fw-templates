@@ -90,6 +90,18 @@ header.profile {
       transition: margin .2s;  
     }
   }
+  
+  .profile__link {
+    box-shadow: none;
+    &:hover{
+      box-shadow: none;
+    }
+  }
+  
+  .profile__qrcode {
+    max-width: 100%;
+    height: auto;
+  }
     
   .profile__link--back{
     display: inline-block;

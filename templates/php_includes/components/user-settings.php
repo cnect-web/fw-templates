@@ -1,13 +1,13 @@
 <main class="profile profile--group clearfix">
 
-  <header>
+  <header class="profile">
     
     <a href="#" class="profile__link">
-      <img src="tmp_resources/frame.png" class="profile__qrcode" alt="Christina Mattews Profile picture">
+      <img src="tmp_resources/frame.png" class="profile__qrcode" alt="QRCode with links to  Richard Phillips Feynman's profile">
     </a>
     
     <h2 class="profile__title">My Profile Page</h2>
-    <h4 class="extra-space--bottom">(Me, <?php echo $title; ?>)</h4>
+    <h4 class="extra-space--bottom text-center">(Me, <?php echo $title; ?>)</h4>
   
     <a href="base-user-details.php" class="profile__link--about">
       See my profile in display mode <i class="fas fa-chevron-right"></i>
@@ -52,17 +52,17 @@
 <div class="form__block form__block--text">
   <label for="field-ID-1" required>
     First name <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
-  <input type="text" name="field-name-1" id="field-ID-1" class="form__input form__input--text" placeholder="" required value="Christina">
+  <input type="text" name="field-name-1" id="field-ID-1" class="form__input form__input--text" placeholder="" required value="Richard">
 </div>
   
 <div class="form__block form__block--text">
   <label for="field-ID-2" required>Last name <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
-  <input type="text" name="field-name-2" id="field-ID-2" class="form__input form__input--text" placeholder="" required value="Matthews">
+  <input type="text" name="field-name-2" id="field-ID-2" class="form__input form__input--text" placeholder="" required value="Phillips Feynman">
 </div>
     
 <div class="form__block form__block--text">
   <label for="field-ID-3" required>Email <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
-  <input type="email" name="field-name-3" id="field-ID-3" class="form__input form__input--email" placeholder="" required value="chrismat@ec.europa.eu">
+  <input type="email" name="field-name-3" id="field-ID-3" class="form__input form__input--email" placeholder="" required value="phillipsfeyn.richard@ec.europa.eu">
 </div>
     
     <h3>Change password</h3>

@@ -27,7 +27,7 @@
   height: auto;
 }
 
-.no-display--sm,.no-display--md,.no-display--lg {
+.no-display--sm {
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important;
@@ -56,6 +56,7 @@
 
 .text-center {
   text-align: center;
+  max-width: 100%;
 }
 
 .hr-text {

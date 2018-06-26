@@ -1,6 +1,6 @@
-<main class="profile profile--group clearfix">
+<main>
 
-  <header>
+  <header class="profile">
     
     <a href="#" class="profile__pic__link"><!-- link to full pic -->
       <img src="tmp_resources/userPicture01.jpg" class="profile__pic" alt="Christina Mattews Profile picture">
