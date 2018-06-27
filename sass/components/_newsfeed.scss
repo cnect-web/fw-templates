@@ -35,8 +35,40 @@
       }
     }
     
-    &__cover{
+    .field--name-field-ngf-cover-image{
       border-radius: 10px;
+      background: adjust-lightness($gray-800, -3%);
+      max-height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       overflow:hidden;
+      
+      img.responsive {
+        max-height: 320px;
+        width: auto;
+        flex-shrink: 0;
+        display: block;
+         //border:1px solid rgba($gray-900, 0);
+      }
+    }
+  }
+
+  .newsfeed__legend-copyright {
+    font-size: 1.3rem;
+    margin-top: 0.1em;
+    color: $gray-900;
+    opacity: 0.8;
+    text-align: center;
+    max-width: 100%;
+    
+    a{
+      color: $gray-700 !important;
+      box-shadow: 0 1px 0 0 $gray-700 !important;
+      &:hover {
+        color: $purple !important;
+        box-shadow: 0 1px 0 0 $purple !important;
+      }
     }
   }
   

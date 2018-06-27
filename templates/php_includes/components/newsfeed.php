@@ -1,6 +1,6 @@
 <div class="newsfeed">
   
-<!-- draft and pinned maybe not relevant in all contexts -->
+<!-- not all infos are relevant depending the context (logged or not, ...) -->
   
 <article class="newsfeed__item newsfeed__item--teaser newsfeed__item--discussion newsfeed__item--pinned">
   <header>
@@ -8,7 +8,10 @@
 
 <?php includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
 
-<img src="tmp_resources/cover01.jpg" class="newsfeed__item__cover responsive" alt="flags">    
+<div class="field field--name-field-ngf-cover-image field--type-entity-reference field--label-hidden field__item">    
+<img src="tmp_resources/cover01.jpg" class="newsfeed__item__cover responsive" alt="flags">
+</div>
+<p class="newsfeed__legend-copyright">European flags | &copy; Jorisvo via <a href="http://www.thinkstockphotos.com/image/stock-photo-european-flags-in-brussels/133988283" target="_blank">Thinkstockphoto.com</a></p>
     
 </header>
   
@@ -30,7 +33,10 @@
 
 <?php includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
 
-<img src="tmp_resources/cover01.jpg" class="newsfeed__item__cover responsive" alt="flags">    
+<div class="field field--name-field-ngf-cover-image field--type-entity-reference field--label-hidden field__item">    
+<img src="tmp_resources/coffee.jpg" class="newsfeed__item__cover responsive" alt="coffee">
+</div>
+<p class="newsfeed__legend-copyright">Coffee | CC0 Thomas Ulrich via <a href="https://pixabay.com/fr/caf%C3%A9-caf%C3%A9-en-grains-ar%C3%B4me-brun-66850/" target="_blank">Pixabay.com</a></p>
     
 </header>
   
@@ -52,7 +58,10 @@
 
 <?php includeWithParams("components/profile-shortinfo.php", $postInfo); ?>
 
-<img src="tmp_resources/cover01.jpg" class="newsfeed__item__cover responsive" alt="flags">    
+<div class="field field--name-field-ngf-cover-image field--type-entity-reference field--label-hidden field__item">    
+<img src="tmp_resources/laptop.jpg" class="newsfeed__item__cover responsive" alt="flags">
+</div>
+<p class="newsfeed__legend-copyright">Laptop | CC0 StockSnap via <a href="https://pixabay.com/fr/ordinateur-portable-mac-ordinateur-2559707/" target="_blank">Pixabay.com</a></p>    
     
 </header>
 
