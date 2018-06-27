@@ -23,30 +23,38 @@ img.logo-cover {
   height: auto;
 }
 
+h1.logo--title {
+  margin: 0;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
 a.logo__link {
   text-decoration: none;
   text-shadow: none;
   box-shadow: none;
-  padding: 15px;
   display: block;
-  width: 70vw;
+  background-image: url(../images/logo_futurium_lab_negatif.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: calc(70vw - 15px);
   max-width: 300px; 
+  height: 0;
+  padding-top: 13.6%;
+  //width: 70vw;
+  //max-width: 300px; 
   
-  /*&:hover {
-    text-decoration: none;
-    text-shadow: none;
-    box-shadow: none;
-    background-color: rgba(#301647, 0.60);
-    box-shadow: 0px 0px 22px 5px rgba(#301647, 0.75);
-  }*/
+  span {
+    visibility: hidden;
+  }
 }
 
-.logo-title {
+/*.logo--title {
   font-weight: $logo__font-weight;
   color: $logo__color; 
   margin: 0;
   padding: 1.5vw;
-}
+}*/
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
@@ -60,11 +68,15 @@ a.logo__link {
     padding: 15px;
   }
   
+    
+  h1.logo--title {
+  margin: 0;
+  padding: 0px;
+}
+  
   a.logo__link {
-    padding: 0px;
-    display: inline;
-    width: auto;
-    max-width: auto;
+    width: 100%;
+     background-size: cover;
   }
   
 }
@@ -73,9 +85,13 @@ a.logo__link {
 @media (min-width: 992px) {
   .logo-area {
     width: 25%;
-    max-width: 300px;
-    padding: 15px;
   }
+  
+  h1.logo--title {
+  max-width: 270px;  
+}
+  
+  
 }
 
 // Extra large devices (large desktops, 1200px and up)

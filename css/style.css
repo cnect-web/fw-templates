@@ -106,8 +106,8 @@ a:not(.toolbar-item):hover {
   background-color: #FFFFFF;
   margin: auto;
   text-align: center;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
 }
@@ -157,6 +157,11 @@ main *:not(img):not(svg)::selection {
     margin-left: 33%;
     width: 66%;
     padding: 75px 15px 0px 15px;
+  }
+
+  .general-container--card {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
   }
 }
 
@@ -2400,22 +2405,29 @@ img.logo-cover {
   height: auto;
 }
 
+h1.logo--title {
+  margin: 0;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
 a.logo__link {
   text-decoration: none;
   text-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  padding: 15px;
   display: block;
-  width: 70vw;
+  background-image: url(../images/logo_futurium_lab_negatif.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: calc(70vw - 15px);
   max-width: 300px;
+  height: 0;
+  padding-top: 13.6%;
 }
 
-.logo-title {
-  font-weight: 900;
-  color: #FFFFFF;
-  margin: 0;
-  padding: 1.5vw;
+a.logo__link span {
+  visibility: hidden;
 }
 
 @media (min-width: 768px) {
@@ -2428,19 +2440,24 @@ a.logo__link {
     padding: 15px;
   }
 
-  a.logo__link {
+  h1.logo--title {
+    margin: 0;
     padding: 0px;
-    display: inline;
-    width: auto;
-    max-width: auto;
+  }
+
+  a.logo__link {
+    width: 100%;
+    background-size: cover;
   }
 }
 
 @media (min-width: 992px) {
   .logo-area {
     width: 25%;
-    max-width: 300px;
-    padding: 15px;
+  }
+
+  h1.logo--title {
+    max-width: 270px;
   }
 }
 

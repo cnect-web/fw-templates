@@ -1,5 +1,7 @@
 <section class="logo-area">
-  <a href="index.php" class="logo__link">
-  <img class="logo" alt="Futurium Lab Logo" src="../../images/logo_futurium_lab_negatif.svg" width="">
-  </a>  
+  <h1 class="logo--title">
+    <a href="index.php" class="logo__link">
+      <span>FuturiumLab</span>
+    </a>
+  </h1>
 </section>
