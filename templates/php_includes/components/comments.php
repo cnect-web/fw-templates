@@ -5,6 +5,12 @@
   
   <article class="comment">
     Comment A
+    
+    <ul class="links inline">
+      <li class="comment-delete"><a href="/comment/1/delete" hreflang="en">Delete</a></li>
+      <li class="comment-edit"><a href="/comment/1/edit" hreflang="en">Edit</a></li>
+      <li class="comment-reply"><a href="/comment/reply/node/5/field_comments/1">Reply</a></li>
+    </ul>
   </article>
   <div class="indented">
    <article  class="comment">

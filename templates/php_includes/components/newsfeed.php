@@ -2,7 +2,7 @@
   
 <!-- not all infos are relevant depending the context (logged or not, ...) -->
   
-<article class="newsfeed__item newsfeed__item--teaser newsfeed__item--discussion newsfeed__item--pinned">
+<article class="newsfeed__item newsfeed__item--teaser newsfeed__item--ngf-discussion">
   <header>
 <h2><a href="base-discussion.php"><?php echo $postTitle; ?></a><span class="newsfeed__item__state sideinfo"> [ pinned ]</span></h2>
 
@@ -27,7 +27,7 @@
   
 </article>
   
-<article class="newsfeed__item newsfeed__item--teaser newsfeed__item--unpublished">
+<article class="newsfeed__item newsfeed__item--teaser newsfeed__item--ngf-discussion">
   <header>
 <h2><a href="base-discussion.php"><?php echo $postTitle; ?></a><span class="newsfeed__item__state sideinfo"> [ ! draft ]</span></h2>
 
@@ -79,7 +79,7 @@
   
 <article class="newsfeed__item newsfeed__item--teaser newsfeed__item--ngf-event">
   <header>
-<h2><a href="base-discussion.php">Lorem ipsum sit dolor amet</a></h2>
+<h2><a href="base-event.php">Lorem ipsum sit dolor amet</a></h2>
 
 <?php 
 $postInfo2 = array(

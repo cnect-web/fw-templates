@@ -21,9 +21,18 @@
   </p>
 </div> 
   
-  <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-9.37236785888672%2C38.537424323873275%2C-8.91918182373047%2C38.78727491420832&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/38.6625/-9.1458" target="_blank">display bigger map</a></small>
+  <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-9.37236785888672%2C38.537424323873275%2C-8.91918182373047%2C38.78727491420832&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><p class="newsfeed__legend-copyright"><a href="https://www.openstreetmap.org/#map=12/38.6625/-9.1458" target="_blank">display bigger map</a></p>
   
-    </div>        
+    </div>
+    
+    <div class="btn-list--center extra-space--top">
+    <button href="#" class="btn btn--blue btn--large">I'm interested</button>
+  </div>
+    
+    <div class="btn-list--center extra-space--top">
+    <button class="btn btn--large btn--blue" disabled="disabled"><i class="fa fa-check"></i> I'm interested</button>
+    <button class="btn btn--hollow"><a href="#"><span class="text-danger"><i class="fa fa-times warning"></i></span> cancel interest</a></button>
+  </div>
     
 </header>
   
@@ -45,7 +54,7 @@
   </ul>
   
   <div class="btn-list--center extra-space--top">
-    <a href="#" class="btn btn--blue btn--large">register</a>
+    <a href="#" class="btn btn--green btn--large">register <i class="fas fa-external-link-alt"></i></a>
   </div>
   
   
