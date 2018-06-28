@@ -114,7 +114,7 @@ $postInfo2 = array(
 </div>
   
 <div class="btn-list btn-list--right">
-  <a href="#" class="btn btn--blue">I'm interested<span class="sr-only"><?php echo $postTitle; ?></span></a>
+  <a href="#" class="btn btn--blue btn--interest" data-toggle-label="Cancel interest">I'm interested<span class="sr-only"><?php echo $postTitle; ?></span></a>
   <a href="base-event.php" class="btn btn--green"><span class="sr-only">read</span> more<span class="sr-only">about <?php echo $postTitle; ?></span></a>
 </div>
 

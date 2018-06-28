@@ -36,7 +36,7 @@ function includeWithParams($fileName, $variablesArray) {
   <!-- end of favicons -->
 </head>
   
-<body>
+<body class="not-signed">
 <a href="#main-content" class="visually-hidden focusable skip-link">
   Skip to main content
 </a>  

@@ -25,14 +25,14 @@
   
     </div>
     
-    <div class="btn-list--center extra-space--top">
-    <button href="#" class="btn btn--blue btn--large">I'm interested</button>
+  <div class="btn-list--center extra-space--top">
+    <button href="#" class="btn btn--blue btn--large btn--interest" data-toggle-label="Cancel interest">I'm interested</button>
   </div>
     
-    <div class="btn-list--center extra-space--top">
+    <!--<div class="btn-list--center extra-space--top">
     <button class="btn btn--large btn--blue" disabled="disabled"><i class="fa fa-check"></i> I'm interested</button>
-    <button class="btn btn--hollow"><a href="#"><span class="text-danger"><i class="fa fa-times warning"></i></span> cancel interest</a></button>
-  </div>
+    <button class="btn btn--grey"><span class="text-danger"><i class="fa fa-times warning"></i></span> cancel interest</button>
+  </div> -->
     
 </header>
   

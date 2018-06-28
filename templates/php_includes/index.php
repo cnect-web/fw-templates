@@ -55,7 +55,7 @@ function includeWithParams($fileName, $variablesArray) {
   
 <div class="form__block form__block--text">
   <label for="field-ID-1" required>
-    First name <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
+    Login or Email <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
   <input type="text" name="field-name-1" id="field-ID-1" class="form__input form__input--text" placeholder="" required>
 </div>
   
@@ -63,13 +63,11 @@ function includeWithParams($fileName, $variablesArray) {
   <label for="field-ID-2" required>Password <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
   <input type="password" name="field-name-2" id="field-ID-2" class="form__input form__input--text" placeholder="" required>
 </div>
-  <div class="clearfix">
-      <div class="btn-list--left btn-list--byside">
+  <div class="clearfix btn-list btn-list--right no-child-margins">
+      <div class="opposite">
       <p><a href="#">Forgot password?</a></p>
-      </div>
-  <div class="form__block form__block--onecol form__block--submit btn-list--right btn-list--byside">  
+      </div> 
   <input type="submit" value="submit" class="btn btn--green">
-</div>
     </div>
       
     </form>
