@@ -14,7 +14,7 @@ if ($logged) {
 ?>
   
 <div class="new-item">
-  <button class="create-new"><i class="fas fa-pencil-alt"></i><span class="sr-only">Create new item</span></button>
+  <a href="#" class="create-new"><i class="fas fa-pencil-alt"></i><span class="no-display--sm">Create new item</span></a>
 </div> 
   
 </header>

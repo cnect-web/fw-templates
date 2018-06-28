@@ -6,6 +6,22 @@
     border-top: solid 1px $gray-500;
   margin-bottom: 16px;
   }
+
+.field--type-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.field--type-video iframe,
+.field--type-video object,
+.field--type-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
   
 .newsfeed__item {
     h2 {
@@ -67,12 +83,12 @@
     span {
       
       &:after {
-        content = " | ";
+        content: " | ";
         display: inline;
       }
       
       &:last-child:after {
-        content = "";
+        content : "";
       }
       
       a{

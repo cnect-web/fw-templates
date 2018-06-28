@@ -6,7 +6,7 @@
   width: 21vw;
   text-align: center;
   
-  button.create-new {
+  .create-new {
     background: url(../images/new-item__button__background--sm.svg) no-repeat center center;
     background-size: 42px 42px;
     border: none;
@@ -74,7 +74,41 @@
     height: 100vh;
     padding: 90px 15px 130px;
     overflow: auto;
-  } 
+  }
+  
+  .new-item {
+  
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    text-align: left;
+
+    .create-new {
+      display: block;
+      background: $white;
+      background-size: auto;
+      border: none;
+      height: auto;
+      width: 100%;
+      font-size: 1.6rem;
+      line-height: 1.8;
+      padding: 0.5rem 0.8rem;
+      border-radius: 0.5rem;
+      color: $gray-900;
+      text-shadow: none;
+      box-shadow: none;
+
+      svg {
+        margin-right: 1.5rem;
+      }
+
+      &.active {
+        background: rgba($white, 0.1);
+        border-bottom: none;
+      }
+    } 
+  }
 }
 
 @media (min-width: 992px) {
