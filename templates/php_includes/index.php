@@ -54,13 +54,13 @@ function includeWithParams($fileName, $variablesArray) {
     <form class="form" action="base_personnal_feed.php">
   
 <div class="form__block form__block--text">
-  <label for="field-ID-1" required>
+  <label for="field-ID-1">
     Login or Email <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
   <input type="text" name="field-name-1" id="field-ID-1" class="form__input form__input--text" placeholder="" required>
 </div>
   
 <div class="form__block form__block--text">
-  <label for="field-ID-2" required>Password <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
+  <label for="field-ID-2">Password <span class="form--required text-danger" title="This field is required."><span class="sr-only">Mandatory field</span>*</span></label>
   <input type="password" name="field-name-2" id="field-ID-2" class="form__input form__input--text" placeholder="" required>
 </div>
   <div class="clearfix btn-list btn-list--right no-child-margins">

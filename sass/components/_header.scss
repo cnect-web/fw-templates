@@ -86,7 +86,7 @@
 
     .create-new {
       display: block;
-      background: $white;
+      background: rgba($white, 1);
       background-size: auto;
       border: none;
       height: auto;
@@ -95,12 +95,20 @@
       line-height: 1.8;
       padding: 0.5rem 0.8rem;
       border-radius: 0.5rem;
+      border: solid 3px rgba($cyan, 1);
       color: $gray-900;
       text-shadow: none;
       box-shadow: none;
+      transition: background-color 0.2s;
 
       svg {
         margin-right: 1.5rem;
+      }
+      
+      &:hover {
+        box-shadow: none;
+        background: rgba($cyan, 1);
+        transition: background-color 0.2s;
       }
 
       &.active {

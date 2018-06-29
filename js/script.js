@@ -40,11 +40,14 @@ $(document).ready(function() {
       
     }, 200);
     
-    
-    
     $cancelBtn.css({opacity: 0});
     $interestedBtn.after($cancelBtn);
-    marginGap = $interestedBtn.offset().top - $cancelBtn.offset().top - 4;
+    
+    
+    if (!$interestedBtn.parent().hasClass("btn-list--center")) {
+     marginGap = $interestedBtn.offset().top - $cancelBtn.offset().top - 4;
+    }
+    
     $cancelBtn.css({display: "none", marginTop : marginGap});
     
     $cancelBtn.slideToggle(200);
