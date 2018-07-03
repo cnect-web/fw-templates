@@ -1014,6 +1014,7 @@ li.tag {
 .account-info .account-info__menu.account-info__dropdown ul li {
   border-bottom: solid 1px rgba(255, 255, 255, 0.5);
   padding: 6px 0;
+  font-size: 1.6rem;
 }
 
 .account-info .account-info__menu.account-info__dropdown ul li:first-child {
@@ -2736,13 +2737,30 @@ a.logo__link span {
     margin-right: 1.5rem;
   }
 
+  .navigation-menu__list li a {
+    color: #FFFFFF;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 6px 0;
+    box-shadow: none;
+  }
+
+  .navigation-menu__list li a:hover {
+    color: #ff397f;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .navigation-menu__list li a:hover .badge {
+    background-color: #ff397f;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
   .navigation-menu__list li.active {
     background: rgba(255, 255, 255, 0.1);
     border-bottom: none;
-  }
-
-  .navigation-menu__list li.active a {
-    color: #FFFFFF;
   }
 
   .navigation-menu__list li.active .fas {
