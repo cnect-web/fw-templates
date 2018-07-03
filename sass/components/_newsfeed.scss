@@ -51,7 +51,8 @@
       }
     }
     
-    .field--name-field-ngf-cover-image{
+    .field--name-field-ngf-cover-image, .field--name-field-media-image
+{
       border-radius: 10px;
       background: adjust-lightness($gray-800, -3%);
       max-height: 320px;

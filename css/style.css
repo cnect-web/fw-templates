@@ -2423,6 +2423,7 @@ a.btn:focus, input.btn:focus, button.btn:focus {
     background: #00c9ff;
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s;
+    color: #05111E;
   }
 
   .new-item .create-new.active {
@@ -2935,7 +2936,7 @@ a.logo__link span {
   box-shadow: 0 1px 0 0 #662D91;
 }
 
-.newsfeed__item .field--name-field-ngf-cover-image {
+.newsfeed__item .field--name-field-ngf-cover-image, .newsfeed__item .field--name-field-media-image {
   border-radius: 10px;
   background: #1f1e23;
   max-height: 320px;
@@ -2951,7 +2952,7 @@ a.logo__link span {
   overflow: hidden;
 }
 
-.newsfeed__item .field--name-field-ngf-cover-image img.responsive {
+.newsfeed__item .field--name-field-ngf-cover-image img.responsive, .newsfeed__item .field--name-field-media-image img.responsive {
   max-height: 320px;
   width: auto;
   -ms-flex-negative: 0;

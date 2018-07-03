@@ -14,7 +14,7 @@ if ($logged) {
 ?>
   
 <div class="new-item">
-  <a href="#" class="create-new"><i class="fas fa-pencil-alt"></i><span class="no-display--sm">Express yourself</span></a>
+  <a href="base-create-new.php" class="create-new"><i class="fas fa-pencil-alt"></i><span class="no-display--sm">Add / Edit a publication...</span></a>
 </div> 
   
 </header>
