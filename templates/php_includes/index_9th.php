@@ -58,7 +58,7 @@ function includeWithParams($fileName, $variablesArray) {
   
   <div class="btn-list--center">
     <a href="#" class="btn btn--blue btn--large">EU Login</a>
-    
+    <!--
     <a href="#" class="btn btn--blue btn--large"><i class="fab fa-linkedin"></i> Linkedin</a>
 
     <a href="#" class="btn btn--blue btn--large"><i class="fab fa-twitter-square"></i> Twitter</a>
@@ -66,6 +66,7 @@ function includeWithParams($fileName, $variablesArray) {
     <a href="#" class="btn btn--blue btn--large"><i class="fab fa-google-plus-square"></i> Google</a>
     
     <a href="#" class="btn btn--blue btn--large"><i class="fab fa-facebook"></i> Facebook</a>
+    -->
   </div>
   
   <hr class="hr-text" data-content="OR">

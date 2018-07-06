@@ -78,13 +78,14 @@ a.logo__link {
     width: 100%;
      background-size: cover;
   }
-  
+
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .logo-area {
     width: 25%;
+    max-width: 300px;
   }
   
   h1.logo--title {

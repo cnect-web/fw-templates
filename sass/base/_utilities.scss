@@ -75,6 +75,8 @@
   opacity: 1;
   width: 80%;
   margin: 5rem auto 3rem auto;
+  
+  
   &:before {
     content: '';
     background: $gray-600;
@@ -90,11 +92,14 @@
     position: relative;
     display: inline-block;
     font-weight: 700;
+    width: 25px;
+    height: 25px;
     padding: 0 3rem;
     line-height: 3rem;
     color: $gray-600;
-    background-color: $white;
+    background-color: #FFF;
     z-index: 0;
+    //text-shadow: 0px 0px 10px #FFFFFF;
   }
 }
 

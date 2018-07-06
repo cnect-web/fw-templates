@@ -82,6 +82,12 @@ input.btn{
   max-width: 32em;
   padding: 0.3rem 1rem;
   font-size: 1.8rem;
+  
+  .icon {
+    height: 1.8rem;
+    margin-right : 1rem;
+    display: inline-block;
+  }
 }
 
 a.btn, input.btn, button.btn {
@@ -99,6 +105,12 @@ a.btn, input.btn, button.btn {
    margin: 15px 0;
    border: none;
    cursor: pointer;
+  
+  .icon {
+    height: 1.3rem;
+    margin-right : 1rem;
+    display: inline-block;
+  }
 
    &:not(.btn--large):last-child {
       margin-bottom: 0px;
