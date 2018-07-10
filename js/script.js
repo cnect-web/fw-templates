@@ -43,6 +43,8 @@ $(document).ready(function() {
     $cancelBtn.css({opacity: 0});
     $interestedBtn.after($cancelBtn);
     
+    console.log("hello sergey");
+    
     
     if (!$interestedBtn.parent().hasClass("btn-list--center")) {
      marginGap = $interestedBtn.offset().top - $cancelBtn.offset().top - 4;
