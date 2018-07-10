@@ -1118,7 +1118,7 @@ li.tag {
     width: 100%;
     max-width: 46px;
     height: auto;
-    border: 2px solid transparent;
+    border: 2px solid rgba(0, 0, 0, 0);
     -webkit-box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.75);
     box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.75);
     margin-right: 15px;
@@ -2920,6 +2920,10 @@ a.logo__link span {
   margin: 0 -15px;
 }
 
+.newsfeed .view-empty {
+  padding: 0 15px;
+}
+
 .sub-section {
   border-top: solid 1px #a6a7ab;
   margin-bottom: 16px;
@@ -2993,6 +2997,10 @@ a.logo__link span {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   display: block;
+}
+
+.newsfeed__item .newsfeed__article-wrapper {
+  padding: 0 15px;
 }
 
 .newsfeed__legend-copyright {

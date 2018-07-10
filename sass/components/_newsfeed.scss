@@ -1,5 +1,9 @@
 .newsfeed {
   margin: 0 -15px;
+  
+  .view-empty {
+    padding: 0 15px;
+  }
 }
 
 .sub-section {
@@ -71,6 +75,11 @@
          //border:1px solid rgba($gray-900, 0);
       }
     }
+  
+  .newsfeed__article-wrapper {
+    padding: 0 15px;
+  } 
+  
   }
 
   .newsfeed__legend-copyright {
